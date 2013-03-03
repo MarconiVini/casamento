@@ -1,0 +1,32 @@
+!!! 5
+%html
+  %head
+    %title Mauricio App - Personal Trainer helper
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+
+  %body
+    =render 'layouts/partials/header'
+    %div{id: 'cols', class: 'box'}
+      =render 'layouts/partials/menu'  
+      %div{id: 'content', class: 'box'}
+        Application
+        -if Rails.env.development?
+          params
+          = debug(params) 
+          %hr
+          session
+          = debug(session) 
+          %hr
+          cookies
+          = debug(cookies) 
+    =render 'layouts/partials/footer'
+    
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+%div{id: 'aside', class: 'box'}
+  %div{class: 'padding box'}
+    %p#logo
+      =link_to image_tag('logo.gif', title: 'Home page index'), root_path
+  %ul.box
+    -#Este menu é gerado no application_helper com a ajuda do metodo "main_menu"
+    -main_menu.each do |menu|
+      =menu.html_safe

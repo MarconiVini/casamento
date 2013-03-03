@@ -1,0 +1,35 @@
+!!! 5
+%html
+  %head
+    %title Bem vindo ao Casamento de Marcos e Taísa
+    = stylesheet_link_tag 'site/jquery.fancybox'
+    = stylesheet_link_tag 'site/reset'
+    = stylesheet_link_tag 'site/personal'
+    = javascript_include_tag 'jquery' 
+    = javascript_include_tag 'site/site'
+    = javascript_include_tag 'site/jquery.fancybox'
+    = csrf_meta_tags
+
+  %body
+    %div.line-top
+    %div.header-top
+    %div.container
+      = render 'layouts/partials/site/header'
+      %section.content
+        = yield  
+      %div.bottom-border
+      %div.noivos-nome-container.mini
+        %div.curl-left.FloatLeft
+        %div.noivos-nome.FloatLeft
+        %div.curl-right.FloatLeft
+    = render 'layouts/partials/site/footer'
+    -if Rails.env.development?
+      params
+      = debug(params) 
+      %hr
+      session
+      = debug(session) 
+      %hr
+      cookies
+      = debug(cookies) 
+    

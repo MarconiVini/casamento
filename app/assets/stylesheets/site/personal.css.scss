@@ -1,0 +1,228 @@
+body {
+  background: url(site-bg.gif) repeat;
+  color: #666666;
+}
+.FloatLeft {
+  float: left;
+}
+.FloatRight {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.line-top {
+  background: url(top-bg.gif) repeat;
+  width: 100%;
+  height: 7px;
+}
+.header-top {
+  background: url("bordado-bg.gif") repeat scroll 0 0 transparent;
+  height: 52px;
+  width: 100%;
+}
+.header-badge {
+  background: url("badge-top.png") repeat scroll 0 0 transparent;
+  height: 89px;
+  left: 389px;
+  position: absolute;
+  top: -102px;
+  width: 191px;
+}
+.header-badge span {
+  color: #999999;
+  display: block;
+  font-size: 28px;
+  height: 30px;
+  margin: 17px auto 0;
+  width: 126px;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+.container header {
+  position: relative;
+}
+.noivos-nome-container {
+  height: 120px;
+  margin: 50px auto 0;
+  width: 716px;
+}
+.noivos-nome-container .curl-left {
+  background: url("curl-left.png") repeat scroll 0 0 transparent;
+  height: 50px;
+  width: 100px;
+  background: url("curl-left.png") repeat scroll 0 0 transparent;
+}
+.noivos-nome-container .curl-right {
+  background: url("curl-right.png") repeat scroll 0 0 transparent;
+  height: 50px;
+  width: 100px;
+}
+.noivos-nome-container .noivos-nome {
+  background: url("Marcos-vinicius-e-taisa.png") no-repeat scroll 0 0 transparent;
+  height: 84px;
+  width: 516px;
+}
+
+.noivos-nome-container.mini {
+  width: 451px;
+  height: 44px;
+    margin: 20px auto 0;
+}
+
+.noivos-nome-container.mini .noivos-nome {
+  background: url("Marcos-vinicius-e-taisa-mini.png") no-repeat scroll 0 0 transparent;
+  height: 41px;
+  width: 250px;
+}
+.noivos-nome-container .sub-message {
+  color: #666666;
+  float: left;
+  font-family: Georgia;
+  font-size: 16px;
+  margin: 5px 0;
+  text-align: center;
+  width: 100%;
+}
+.main-menu {
+  background: url("menu-principal.png") repeat scroll 0 0 transparent;
+  height: 31px;
+  margin: 0 auto;
+  padding: 14px 80px;
+  width: 819px;
+}
+.main-menu ul li {
+  font-family: "Trebuchet MS";
+  font-size: 16px;
+  float: left;
+}
+.main-menu ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 5px;
+  margin: 0 13px;
+  cursor: pointer;
+}
+.main-menu ul li a:hover {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+.content {
+  background: url("corpo-bg.gif") repeat-y scroll 5px 0 transparent;
+  min-height: 300px;
+  padding: 12px 20px;
+}
+.foto-slider {
+  background: url("album-fotos.gif") no-repeat scroll 0 0 transparent;
+  height: 330px;
+  padding: 13px;
+  width: 873px;
+  margin: 0 auto 0;
+  -webkit-box-shadow: 0px 0px 10px 0px #999;
+  box-shadow: 0px 0px 10px 0px #999;
+}
+.bottom-border {
+  background: url("corpo-bg-bottom.jpg") no-repeat scroll 2px 0 transparent;
+  height: 42px;
+  width: 100%;
+}
+.sign {
+  background: url("sign.jpg") no-repeat scroll 0 0 transparent;
+  height: 36px;
+  margin: 20px auto 0;
+  width: 84px;
+}
+.welcame {
+  width: 830px;
+  margin: 0 auto;
+  text-align: center;
+}
+.welcame h1 {
+  font-family: Georgia;
+  font-size: 22px;
+  text-align: center;
+  color: #CC9503;
+  margin: 12px 10px 10px;
+  text-shadow: 1px 4px 7px #777777;
+  filter: dropshadow(color=#777777, offx=1, offy=4);
+}
+.section-bg {
+  background: url("section-bg.jpg") no-repeat scroll 0 0 transparent;
+  margin: 15px 0 0 0;
+  padding: 20px 0 0;
+  min-height: 230px;
+  width: 100%;
+}
+.section-bg article {
+  width: 400px;
+  padding: 20px;
+}
+.section-bg article img {
+  padding: 5px;
+  border: 1px solid #999999;
+  background: #fff;
+  margin: 0 15px 0 0;
+  float:left;
+  -webkit-box-shadow: 0px 0px 5px 1px #999;
+  box-shadow: 0px 0px 5px 1px #999;
+}
+.section-bg article h2{
+  font-family: Georgia;
+  font-size: 22px;
+  margin: 0 0 25px 0;
+  float:left;
+  text-align: left;
+  color: #CC9503;
+  text-shadow: 1px 4px 7px #777777;
+  filter: dropshadow(color=#777777, offx=1, offy=4);  
+}
+.section-bg article p{
+  float:left;
+  width: 220px;
+  margin: 0 0 10px 0;
+}
+
+.section-bg article p a{
+  color: #CC9503;
+  text-decoration: none;
+}
+
+.section-bg article p a:hover{
+  text-decoration: underline;
+}
+
+.coluna-direita {
+  float: right;
+}
+.coluna-esquerda {
+  float: left;
+}
+
+footer {
+  background: url("footer-bg.jpg") repeat-x scroll 0 0 transparent;
+  height: 25px;
+  margin: 15px 0 0;
+  padding: 23px 0 0;
+  width: 100%;
+}
+
+footer .ConteudoFooter{
+  width: 980px;
+  margin: 0 auto;
+  color: #999999;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
