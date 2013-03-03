@@ -3059,3 +3059,212 @@ Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-03 14:46:55 -0300
 Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-03 15:41:35 -0300
+Processing by Site::PageController#index as HTML
+  Rendered site/page/index.html.haml within layouts/masters/site (19.9ms)
+  Rendered layouts/partials/site/_header.html.haml (17.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.4ms)
+Completed 200 OK in 119ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-03 15:41:35 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-03 15:41:36 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-03 15:41:36 -0300
+Served asset /site/site.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-03 15:41:36 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-03 15:41:36 -0300
+Served asset /site/personal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-03 15:41:36 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-03 15:41:37 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (12ms)
+
+
+Started GET "/assets/site/foto1.jpg" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/foto1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/taisa.jpg" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/taisa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/marcos.jpg" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/marcos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/album-fotos.gif" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/album-fotos.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/sign.jpg" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/sign.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-03 15:41:38 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-03 15:42:03 -0300
+Processing by Site::PageController#index as HTML
+  Rendered site/page/index.html.haml within layouts/masters/site (1.1ms)
+Compiled site/personal.css  (210ms)  (pid 31862)
+  Rendered layouts/partials/site/_header.html.haml (0.3ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 287ms (Views: 286.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-03 15:42:04 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-03 15:42:04 -0300
+Served asset /site/reset.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-03 15:42:04 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-03 15:42:04 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-03 15:42:04 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-03 15:42:04 -0300
+Served asset /site/personal.css - 200 OK (13ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto1.jpg" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/foto1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/marcos.jpg" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/marcos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/taisa.jpg" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/taisa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/album-fotos.gif" for 127.0.0.1 at 2013-03-03 15:42:05 -0300
+Served asset /site/album-fotos.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/sign.jpg" for 127.0.0.1 at 2013-03-03 15:42:06 -0300
+Served asset /site/sign.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-03 15:42:06 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-03 15:42:06 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-03 15:42:06 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-03 15:42:06 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
