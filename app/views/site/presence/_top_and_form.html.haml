@@ -1,0 +1,23 @@
+%h1
+  Confirmação de Presença ao Casamento
+  
+%p.description
+  Para confirmar a presença ao nosso casamento, basta digitar seu nome no box abaixo. 
+  %br
+  Selecionar seu nome na lista e confirmar a presença.
+  %br
+  Sua presença é muito importante contamos com você
+  
+.section-bg.mini
+  =form_for :presence, :method => :post  do |f|
+    %table
+      %tr
+        %th
+          =f.label :name, "Nome"
+        %th
+          
+      %tr
+        %td
+          =f.text_field :name
+        %td
+          =f.submit "Buscar"

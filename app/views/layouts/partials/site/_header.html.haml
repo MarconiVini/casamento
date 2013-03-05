@@ -10,21 +10,5 @@
     Estão se Casando
 %nav.main-menu
   %ul
-    %li
-      %a
-        Home
-    %li
-      %a
-        Confirme sua Presença
-    %li
-      %a
-        Cotas de Lua de Mel
-    %li
-      %a
-        Local
-    %li
-      %a
-        Sobre o Casal                
-    %li
-      %a
-        Contato
+    -site_main_menu.each do |item|
+      =item.html_safe

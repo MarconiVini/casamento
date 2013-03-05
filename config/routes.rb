@@ -1,15 +1,20 @@
 PersonalTrainer::Application.routes.draw do
   
+  match '/administrador' => 'administrador/admin_session#new'
+  match '/administrador/create' => 'administrador/admin_session#create', via: :post
+  match '/administrador/destroy' => 'administrador/admin_session#destroy', via: :get
+  
   namespace :administrador do
   # Directs /admin/products/* to Admin::ProductsController
   # (app/controllers/admin/products_controller.rb)
     resources :admins
+    resources :families
+    resources :members
     
   end
   #Login e logout do administrador
-  match '/administrador' => 'administrador/admin_session#new'
-  match '/administrador/create' => 'administrador/admin_session#create', via: :post
-  match '/administrador/destroy' => 'administrador/admin_session#destroy', via: :get
+  match "confirme-sua-presenca" => 'site/presence#index', via: :get, as: :presence
+  match "confirme-sua-presenca" => 'site/presence#members', via: :post, as: :presence
   
   root :to => 'site/page#index'
   

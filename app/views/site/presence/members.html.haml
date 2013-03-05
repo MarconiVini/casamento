@@ -1,0 +1,27 @@
+=render "top_and_form"
+
+-unless @members.nil?
+  %h2
+    Resultados Encontrados para a busca "
+    =@query
+    ":
+%table.resultados
+  %tr
+    %th
+      Nome do Convidado
+    %th
+      Presença confirmada?
+      
+  -@members.each do |m|
+    %tr
+      %td
+        =m.name
+      %td
+        -if m.confirmado == true 
+          Presença confirmada
+        -else
+          Não confirmado
+%br
+Todos os resultados
+%br
+=@all

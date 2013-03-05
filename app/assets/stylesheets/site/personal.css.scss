@@ -1,7 +1,35 @@
+@font-face {
+  font-family: 'Corsiva';
+  src: url('MonotypeCorsiva.eot');
+  src: local('☺'), url('MonotypeCorsiva.woff') format('woff'), url('MonotypeCorsiva.ttf') format('truetype'), url('MonotypeCorsiva.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: url(site-bg.gif) repeat;
   color: #666666;
 }
+
+h1 {
+  font-family: Corsiva, arial;
+  font-size: 32px;
+  text-align: center;
+  color: #CC9503;
+  margin: 12px 10px 10px;
+  text-shadow: 2px 2px 3px #999999;
+  filter: dropshadow(color=#999999, offx=2, offy=3);
+}
+
+.foxform input, .foxform textarea {
+  background-color: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 5px rgba(192, 192, 192, 0.698) inset, 0 0 7px rgba(192, 192, 192, 0.698);
+  margin: 0 3px !important;
+  padding: 5px !important;
+}
+
 .FloatLeft {
   float: left;
 }
@@ -140,13 +168,13 @@ body {
   text-align: center;
 }
 .welcame h1 {
-  font-family: Georgia;
-  font-size: 22px;
+  font-family: Corsiva, arial;
+  font-size: 32px;
   text-align: center;
   color: #CC9503;
   margin: 12px 10px 10px;
-  text-shadow: 1px 4px 7px #777777;
-  filter: dropshadow(color=#777777, offx=1, offy=4);
+  text-shadow: 2px 2px 3px #999999;
+  filter: dropshadow(color=#999999, offx=2, offy=3);
 }
 .section-bg {
   background: url("section-bg.jpg") no-repeat scroll 0 0 transparent;
@@ -155,6 +183,11 @@ body {
   min-height: 230px;
   width: 100%;
 }
+
+.section-bg.mini{
+  min-height: 60px;
+}
+
 .section-bg article {
   width: 400px;
   padding: 20px;
@@ -169,14 +202,14 @@ body {
   box-shadow: 0px 0px 5px 1px #999;
 }
 .section-bg article h2{
-  font-family: Georgia;
-  font-size: 22px;
+  font-family: Corsiva, arial;
+  font-size: 32px;
+  color: #CC9503;
+  text-shadow: 2px 2px 3px #999999;
+  filter: dropshadow(color=#999999, offx=2, offy=3);
   margin: 0 0 25px 0;
   float:left;
   text-align: left;
-  color: #CC9503;
-  text-shadow: 1px 4px 7px #777777;
-  filter: dropshadow(color=#777777, offx=1, offy=4);  
 }
 .section-bg article p{
   float:left;
@@ -212,10 +245,43 @@ footer .ConteudoFooter{
   width: 980px;
   margin: 0 auto;
   color: #999999;
-    font-size: 11px;
+  font-size: 11px;
 }
 
+.PhotoEffect, .PhotoEffect2 {
+  float: left;
+  height: 200px;
+  width: 175px;
+}
 
+.PhotoEffect ul, .PhotoEffect2 ul{
+  position: relative;
+}
+
+.PhotoEffect ul li, .PhotoEffect2 ul li{
+  position: absolute;
+}
+
+.description{
+  text-align:center;
+  margin: 0 0 40px 0;
+}
+
+.resultados tr th, .resultados tr td{
+  padding: 4px 15px;
+  text-align:left;
+}
+
+.resultados tr th{
+  border:1px solid #666;
+  background: #666666;
+  color: #fff;
+}
+
+.resultados tr td{
+  border:1px solid #666;
+  color: #666;
+}
 
 
 
