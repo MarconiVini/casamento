@@ -2,3 +2,4 @@
 
 require ::File.expand_path('../config/environment',  __FILE__)
 run PersonalTrainer::Application
+$stdout.sync = true

@@ -48504,3 +48504,1021 @@ Served asset /jquery.js - 304 Not Modified (30ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 22:14:36 -0300
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca" for 127.0.0.1 at 2013-03-06 07:34:51 -0300
+Processing by Site::PresenceController#index as HTML
+  Rendered site/presence/_top_and_form.html.haml (2.9ms)
+  Rendered site/presence/index.html.haml within layouts/masters/site (6.5ms)
+  Rendered layouts/partials/site/_header.html.haml (2.5ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:34:52 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:34:52 -0300
+Served asset /site/reset.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:34:52 -0300
+Served asset /site/personal.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:34:52 -0300
+Served asset /jquery.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:34:52 -0300
+Served asset /site/home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:34:52 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:34:52 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:34:53 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:34:53 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:34:54 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-03-06 07:35:05 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L2/bfUhJ3vrNKficMZMD0xOHLiE+UTQz0c+W+fGJnyo=", "presence"=>{"name"=>"marcos"}, "commit"=>"Buscar"}
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  [1m[35mMember Load (0.4ms)[0m  SELECT "members".* FROM "members" WHERE (name like '%marcos%')
+  Rendered site/presence/_top_and_form.html.haml (3.3ms)
+  Rendered site/presence/members.html.haml within layouts/masters/site (16.2ms)
+  Rendered layouts/partials/site/_header.html.haml (15.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 176ms (Views: 94.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:35:06 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:35:06 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:35:06 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:35:06 -0300
+Served asset /site/home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:35:06 -0300
+Served asset /site/site.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:35:06 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:35:06 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:35:07 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/sprite.jpg" for 127.0.0.1 at 2013-03-06 07:35:20 -0300
+Served asset /site/sprite.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca/marcos-vinicius-cardoso-santini" for 127.0.0.1 at 2013-03-06 07:35:21 -0300
+Processing by Site::PresenceController#family as HTML
+  Parameters: {"parametrize_name"=>"marcos-vinicius-cardoso-santini"}
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" WHERE (name like '%marcos vinicius cardoso santini%') LIMIT 1[0m
+  [1m[35mFamily Load (0.3ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" WHERE (family_id == '1')[0m
+  Rendered site/presence/family.html.haml within layouts/masters/site (2.6ms)
+  Rendered layouts/partials/site/_header.html.haml (2.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (6.2ms)
+Completed 200 OK in 145ms (Views: 82.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:35:22 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:35:22 -0300
+Served asset /site/home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:35:22 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:35:22 -0300
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:35:22 -0300
+Served asset /site/personal.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:35:22 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:35:22 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:35:23 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:35:23 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:35:23 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:35:24 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:35:24 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:35:24 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:35:24 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:35:24 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:35:24 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:35:24 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:35:24 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:35:24 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca/marcos-vinicius-cardoso-santini" for 127.0.0.1 at 2013-03-06 07:36:18 -0300
+Processing by Site::PresenceController#family as HTML
+  Parameters: {"parametrize_name"=>"marcos-vinicius-cardoso-santini"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/site/presence_controller.rb:14:in `family'
+
+
+  Rendered /home/ubuntu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.3ms)
+
+
+Started GET "/confirme-sua-presenca/marcos-vinicius-cardoso-santini" for 127.0.0.1 at 2013-03-06 07:36:33 -0300
+Processing by Site::PresenceController#family as HTML
+  Parameters: {"parametrize_name"=>"marcos-vinicius-cardoso-santini"}
+  [1m[35mMember Load (0.3ms)[0m  SELECT "members".* FROM "members" WHERE (name like '%marcos vinicius cardoso santini%') LIMIT 1
+  [1m[36mFamily Load (0.3ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mMember Load (0.3ms)[0m  SELECT "members".* FROM "members" WHERE (family_id == '1')
+  Rendered site/presence/family.html.haml within layouts/masters/site (3.5ms)
+  Rendered layouts/partials/site/_header.html.haml (2.8ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 266ms (Views: 152.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:36:34 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:36:34 -0300
+Served asset /site/reset.css - 304 Not Modified (57ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:36:34 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:36:34 -0300
+Served asset /site/home.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:36:34 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:36:34 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:36:34 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:36:35 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:36:35 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:36:35 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:36:35 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:36:35 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:36:35 -0300
+Served asset /site/badge-top.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:36:35 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:36:36 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:36:36 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:36:36 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:36:36 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:36:36 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca/marcos-vinicius-cardoso-santini" for 127.0.0.1 at 2013-03-06 07:38:40 -0300
+Processing by Site::PresenceController#family as HTML
+  Parameters: {"parametrize_name"=>"marcos-vinicius-cardoso-santini"}
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" WHERE (name like '%marcos vinicius cardoso santini%') LIMIT 1[0m
+  [1m[35mFamily Load (0.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" WHERE (family_id == '1')[0m
+  Rendered site/presence/family.html.haml within layouts/masters/site (2.8ms)
+  Rendered layouts/partials/site/_header.html.haml (10.6ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 64ms (Views: 56.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:38:40 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:38:40 -0300
+Served asset /site/reset.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:38:40 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:38:41 -0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:38:41 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:38:41 -0300
+Served asset /site/home.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:38:41 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:38:43 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:38:44 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca" for 127.0.0.1 at 2013-03-06 07:38:56 -0300
+Processing by Site::PresenceController#index as HTML
+  Rendered site/presence/_top_and_form.html.haml (6.4ms)
+  Rendered site/presence/index.html.haml within layouts/masters/site (16.9ms)
+  Rendered layouts/partials/site/_header.html.haml (2.2ms)
+  Rendered layouts/partials/site/_footer.html.haml (1.5ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:38:56 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:38:56 -0300
+Served asset /site/reset.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:38:56 -0300
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:38:56 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:38:56 -0300
+Served asset /site/site.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:38:56 -0300
+Served asset /site/home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:38:56 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:38:57 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:38:58 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-03-06 07:39:07 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L2/bfUhJ3vrNKficMZMD0xOHLiE+UTQz0c+W+fGJnyo=", "presence"=>{"name"=>"joe"}, "commit"=>"Buscar"}
+  [1m[35mMember Load (0.4ms)[0m  SELECT "members".* FROM "members" 
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" WHERE (name like '%joe%')[0m
+  Rendered site/presence/_top_and_form.html.haml (7.4ms)
+  Rendered site/presence/members.html.haml within layouts/masters/site (15.3ms)
+  Rendered layouts/partials/site/_header.html.haml (3.7ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 91ms (Views: 79.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:39:07 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:39:07 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:39:07 -0300
+Served asset /site/reset.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:39:07 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:39:07 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:39:07 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:39:08 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:39:08 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (11ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/curl-left.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:39:09 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/sprite.jpg" for 127.0.0.1 at 2013-03-06 07:39:23 -0300
+Served asset /site/sprite.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/confirme-sua-presenca/joelma-pires-de-jesus" for 127.0.0.1 at 2013-03-06 07:39:23 -0300
+Processing by Site::PresenceController#family as HTML
+  Parameters: {"parametrize_name"=>"joelma-pires-de-jesus"}
+  [1m[35mMember Load (0.0ms)[0m  SELECT "members".* FROM "members" WHERE (name like '%joelma pires de jesus%') LIMIT 1
+  [1m[36mFamily Load (0.3ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mMember Load (0.6ms)[0m  SELECT "members".* FROM "members" WHERE (family_id == '2')
+  Rendered site/presence/family.html.haml within layouts/masters/site (6.1ms)
+  Rendered layouts/partials/site/_header.html.haml (2.1ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 95ms (Views: 70.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:39:24 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:39:24 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:39:24 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:39:24 -0300
+Served asset /site/home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:39:24 -0300
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:39:25 -0300
+Served asset /site/reset.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:39:25 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:39:25 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:39:25 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:39:25 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:39:25 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:39:26 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:39:26 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:39:26 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:39:26 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:39:26 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:39:26 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:39:26 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:39:26 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca" for 127.0.0.1 at 2013-03-06 07:47:10 -0300
+Processing by Site::PresenceController#index as HTML
+  Rendered site/presence/_top_and_form.html.haml (3.9ms)
+  Rendered site/presence/index.html.haml within layouts/masters/site (5.9ms)
+  Rendered layouts/partials/site/_header.html.haml (2.2ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/confirme-sua-presenca" for 127.0.0.1 at 2013-03-06 07:47:10 -0300
+Processing by Site::PresenceController#index as HTML
+  Rendered site/presence/_top_and_form.html.haml (3.9ms)
+  Rendered site/presence/index.html.haml within layouts/masters/site (7.1ms)
+  Rendered layouts/partials/site/_header.html.haml (5.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 68ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:47:10 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:47:10 -0300
+Served asset /site/personal.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:10 -0300
+Served asset /site/site.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:10 -0300
+Served asset /site/home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:10 -0300
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:47:10 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:10 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:11 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:11 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/curl-right.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:47:12 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-03-06 07:47:14 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L2/bfUhJ3vrNKficMZMD0xOHLiE+UTQz0c+W+fGJnyo=", "presence"=>{"name"=>"marcos"}, "commit"=>"Buscar"}
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  [1m[35mMember Load (0.5ms)[0m  SELECT "members".* FROM "members" WHERE (name like '%marcos%')
+  Rendered site/presence/_top_and_form.html.haml (15.6ms)
+  Rendered site/presence/members.html.haml within layouts/masters/site (20.2ms)
+  Rendered layouts/partials/site/_header.html.haml (3.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.9ms)
+Completed 200 OK in 135ms (Views: 58.0ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:47:14 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:47:14 -0300
+Served asset /site/personal.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:47:14 -0300
+Served asset /site/reset.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:14 -0300
+Served asset /site/site.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:14 -0300
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:14 -0300
+Served asset /site/home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:14 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:15 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:15 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:47:15 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:47:15 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:15 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:47:15 -0300
+Served asset /site/badge-top.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:47:16 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:47:16 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:16 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-06 07:47:16 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:47:16 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:47:16 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:47:16 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/sprite.jpg" for 127.0.0.1 at 2013-03-06 07:47:16 -0300
+Served asset /site/sprite.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca/marcos-vinicius-cardoso-santini" for 127.0.0.1 at 2013-03-06 07:47:17 -0300
+Processing by Site::PresenceController#family as HTML
+  Parameters: {"parametrize_name"=>"marcos-vinicius-cardoso-santini"}
+  [1m[36mMember Load (0.4ms)[0m  [1mSELECT "members".* FROM "members" WHERE (lower(name) like '%marcos vinicius cardoso santini%') LIMIT 1[0m
+  [1m[35mFamily Load (0.4ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (0.4ms)[0m  [1mSELECT "members".* FROM "members" WHERE (family_id == '1')[0m
+  Rendered site/presence/family.html.haml within layouts/masters/site (4.8ms)
+  Rendered layouts/partials/site/_header.html.haml (7.7ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 150ms (Views: 67.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/site/jquery.fancybox.css?body=1" for 127.0.0.1 at 2013-03-06 07:47:18 -0300
+Served asset /site/jquery.fancybox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-06 07:47:18 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:18 -0300
+Served asset /site/site.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-06 07:47:18 -0300
+Served asset /site/reset.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:18 -0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:18 -0300
+Served asset /site/home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/jquery.fancybox.js?body=1" for 127.0.0.1 at 2013-03-06 07:47:18 -0300
+Served asset /site/jquery.fancybox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-06 07:47:19 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
