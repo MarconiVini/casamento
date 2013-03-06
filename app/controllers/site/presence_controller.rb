@@ -15,7 +15,7 @@ class Site::PresenceController < ApplicationController
     parametrize = param.gsub("-", " ").downcase
     @member_from_url = Member.find(:first, conditions: ["lower(name) like ?", "%#{parametrize}%"]); 
     @family = Family.find(@member_from_url.family_id)
-    @members = Member.find(:all, conditions: ["family_id == ?", "#{@member_from_url.family_id}"])
+    @members = Member.find(:all, conditions: ["family_id = ?", "#{@member_from_url.family_id}"])
   end
   
   def confirm
