@@ -3,7 +3,7 @@ class CreateMembers < ActiveRecord::Migration
     create_table :members do |t|
       t.string :name
       t.integer :family_id
-      t.boolean :confirmado
+      t.boolean :confirmado, default: false
 
       t.timestamps
     end

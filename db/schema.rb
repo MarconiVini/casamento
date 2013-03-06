@@ -38,9 +38,9 @@ ActiveRecord::Schema.define(:version => 20130303222252) do
   create_table "members", :force => true do |t|
     t.string   "name"
     t.integer  "family_id"
-    t.boolean  "confirmado"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.boolean  "confirmado", :default => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
   end
 
   create_table "personals", :force => true do |t|

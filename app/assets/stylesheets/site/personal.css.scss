@@ -21,6 +21,19 @@ h1 {
   filter: dropshadow(color=#999999, offx=2, offy=3);
 }
 
+a {
+  color: #CC9503;
+  cursor: pointer;
+  margin: 0 11px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
 .foxform input, .foxform textarea {
   background-color: #FFFFFF;
   border: 1px solid #C0C0C0;
@@ -186,6 +199,7 @@ h1 {
 
 .section-bg.mini{
   min-height: 60px;
+  padding: 20px 60px;
 }
 
 .section-bg article {
@@ -267,6 +281,15 @@ footer .ConteudoFooter{
   margin: 0 0 40px 0;
 }
 
+.resultados-container{
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.resultados-container h2{
+  margin: 0 0 10px 0;
+}
+
 .resultados tr th, .resultados tr td{
   padding: 4px 15px;
   text-align:left;
@@ -283,6 +306,19 @@ footer .ConteudoFooter{
   color: #666;
 }
 
+.search-form th{
+  text-align:left;
+  padding: 3px;  
+}
+
+.confirm-link{
+  padding: 0 23px;
+}
+
+.confirm-link:hover{
+  background: url("sprite.jpg") no-repeat scroll 0 -345px transparent;
+  padding: 0 23px;
+}
 
 
 

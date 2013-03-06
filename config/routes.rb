@@ -12,9 +12,14 @@ PersonalTrainer::Application.routes.draw do
     resources :members
     
   end
-  #Login e logout do administrador
+  #Confirmar presença
   match "confirme-sua-presenca" => 'site/presence#index', via: :get, as: :presence
   match "confirme-sua-presenca" => 'site/presence#members', via: :post, as: :presence
+  #Buscar convidado por nome
+  match "confirme-sua-presenca/:parametrize_name" => 'site/presence#family', via: :get, as: :family
+  #Confirmar/cancelar presença
+  match "confirme-sua-presenca/:parametrize_name/confirmar" => 'site/presence#confirm', via: :get, as: :family_member_confirm
+  match "confirme-sua-presenca/:parametrize_name/cancelar" => 'site/presence#cancel', via: :get, action: :delete, as: :family_member_cancel
   
   root :to => 'site/page#index'
   
