@@ -58638,3 +58638,778 @@ Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (4ms)
 
 Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-07 07:27:49 -0300
 Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-07 07:33:11 -0300
+Processing by Site::PageController#index as HTML
+  Rendered site/page/index.html.haml within layouts/masters/site (8.8ms)
+Compiled site/personal.css  (410ms)  (pid 2360)
+Compiled site/site.js  (0ms)  (pid 2360)
+  Rendered layouts/partials/site/_header.html.haml (8.3ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 550ms (Views: 545.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:12 -0300
+Served asset /site/reset.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:12 -0300
+Served asset /site/personal.css - 200 OK (45ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:12 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:12 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:12 -0300
+Served asset /site/site.js - 200 OK (14ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:12 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:12 -0300
+Served asset /site/home.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/foto/Aliancas-big.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/Aliancas-big.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa-maylin-big.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/marcos-taisa-maylin-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa4-big.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/marcos-taisa4-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa5-big.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/marcos-taisa5-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa6-big.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/marcos-taisa6-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa-big.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/marcos-taisa-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa3-big.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/marcos-taisa3-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos3.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/mini-marcos3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa2-big.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/marcos-taisa2-big.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/foto/mini-marcos.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/mini-marcos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos1.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/mini-marcos1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos2.jpg" for 127.0.0.1 at 2013-03-07 07:33:13 -0300
+Served asset /site/foto/mini-marcos2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos5.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-marcos5.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/foto/mini-marcos4.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-marcos4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos6.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-marcos6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/marcos.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/marcos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata1.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-tata1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/foto/mini-tata.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-tata.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata2.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-tata2.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/foto/mini-tata3.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-tata3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata4.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-tata4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata5.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-tata5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata6.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/foto/mini-tata6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/taisa.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/taisa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/badge-top.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/curl-right.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/album-fotos.gif" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/album-fotos.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/slider/loading.gif" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/slider/loading.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/sign.jpg" for 127.0.0.1 at 2013-03-07 07:33:14 -0300
+Served asset /site/sign.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-07 07:33:15 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-07 07:33:15 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-07 07:33:15 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/slider/arrows.png" for 127.0.0.1 at 2013-03-07 07:33:15 -0300
+Served asset /site/slider/arrows.png - 304 Not Modified (2ms)
+
+
+Started GET "/confirme-sua-presenca" for 127.0.0.1 at 2013-03-07 07:33:29 -0300
+Processing by Site::PresenceController#index as HTML
+  Rendered site/presence/_top_and_form.html.haml (16.6ms)
+  Rendered site/presence/index.html.haml within layouts/masters/site (72.9ms)
+  Rendered layouts/partials/site/_header.html.haml (7.1ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 168ms (Views: 166.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:30 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:30 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:30 -0300
+Served asset /site/site.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:30 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-07 07:33:31 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-03-07 07:33:36 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nTkBY7zz+ngNPTAd9tV5OI5UkkRhf5Dv5SjYIZWDvhE=", "presence"=>{"name"=>"marcos"}, "commit"=>"Buscar"}
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  [1m[35mMember Load (1.4ms)[0m  SELECT "members".* FROM "members" WHERE (lower(name) like '%marcos%')
+  Rendered site/presence/_top_and_form.html.haml (3.3ms)
+  Rendered site/presence/members.html.haml within layouts/masters/site (19.1ms)
+  Rendered layouts/partials/site/_header.html.haml (1.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 511ms (Views: 63.5ms | ActiveRecord: 86.5ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/reset.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:37 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/badge-top.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-07 07:33:38 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/sprite.jpg" for 127.0.0.1 at 2013-03-07 07:33:39 -0300
+Served asset /site/sprite.jpg - 200 OK (19ms)
+
+
+Started GET "/confirme-sua-presenca/marcos-vinicius-cardoso-santini" for 127.0.0.1 at 2013-03-07 07:33:40 -0300
+Processing by Site::PresenceController#family as HTML
+  Parameters: {"parametrize_name"=>"marcos-vinicius-cardoso-santini"}
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members" WHERE (lower(name) like '%marcos vinicius cardoso santini%') LIMIT 1[0m
+  [1m[35mFamily Load (21.5ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (0.5ms)[0m  [1mSELECT "members".* FROM "members" WHERE (family_id = '1')[0m
+  Rendered site/presence/family.html.haml within layouts/masters/site (19.8ms)
+  Rendered layouts/partials/site/_header.html.haml (7.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (1.6ms)
+Completed 200 OK in 171ms (Views: 86.7ms | ActiveRecord: 22.6ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:40 -0300
+Served asset /site/reset.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:40 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:40 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:40 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:40 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:40 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:40 -0300
+Served asset /site/home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-07 07:33:41 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca/marcos-vinicius-cardoso-santini/cancelar" for 127.0.0.1 at 2013-03-07 07:33:44 -0300
+Processing by Site::PresenceController#cancel as HTML
+  Parameters: {"parametrize_name"=>"marcos-vinicius-cardoso-santini"}
+  [1m[35mMember Load (0.3ms)[0m  SELECT "members".* FROM "members" WHERE (lower(name) like '%marcos vinicius cardoso santini%') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mMember Exists (0.3ms)[0m  SELECT 1 AS one FROM "members" WHERE (LOWER("members"."name") = LOWER('Marcos Vinicius cardoso santini') AND "members"."id" != 1) LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "members" SET "confirmado" = 'f', "updated_at" = '2013-03-07 10:33:45.173086' WHERE "members"."id" = 1[0m
+  [1m[35m (30.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/confirme-sua-presenca/marcos-vinicius-cardoso-santini
+Completed 302 Found in 351ms (ActiveRecord: 31.5ms)
+
+
+Started GET "/confirme-sua-presenca/marcos-vinicius-cardoso-santini" for 127.0.0.1 at 2013-03-07 07:33:45 -0300
+Processing by Site::PresenceController#family as HTML
+  Parameters: {"parametrize_name"=>"marcos-vinicius-cardoso-santini"}
+  [1m[36mMember Load (0.4ms)[0m  [1mSELECT "members".* FROM "members" WHERE (lower(name) like '%marcos vinicius cardoso santini%') LIMIT 1[0m
+  [1m[35mFamily Load (0.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members" WHERE (family_id = '1')[0m
+  Rendered site/presence/family.html.haml within layouts/masters/site (2.8ms)
+  Rendered layouts/partials/site/_header.html.haml (2.1ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 78ms (Views: 65.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:45 -0300
+Served asset /site/reset.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:45 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-07 07:33:45 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:45 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:45 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:45 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-07 07:33:45 -0300
+Served asset /site/home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-07 07:33:46 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Processing by Site::PageController#index as HTML
+  Rendered site/page/index.html.haml within layouts/masters/site (8.2ms)
+  Rendered layouts/partials/site/_header.html.haml (1.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (8.4ms)
+Completed 200 OK in 72ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/reset.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/site.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/personal.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa-maylin-big.jpg" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/foto/marcos-taisa-maylin-big.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa6-big.jpg" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/foto/marcos-taisa6-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa4-big.jpg" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/foto/marcos-taisa4-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa3-big.jpg" for 127.0.0.1 at 2013-03-07 07:34:00 -0300
+Served asset /site/foto/marcos-taisa3-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-03-07 07:34:01 -0300
+Served asset /site/site-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/Aliancas-big.jpg" for 127.0.0.1 at 2013-03-07 07:34:01 -0300
+Served asset /site/foto/Aliancas-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-marcos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos3.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-marcos3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa2-big.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/marcos-taisa2-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa5-big.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/marcos-taisa5-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa-big.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/marcos-taisa-big.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos1.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-marcos1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos2.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-marcos2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos4.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-marcos4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos5.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-marcos5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-marcos6.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-marcos6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/marcos.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/marcos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-tata.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata1.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-tata1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata2.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-tata2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata3.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-tata3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata5.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-tata5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata4.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-tata4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/foto/mini-tata6.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/foto/mini-tata6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/taisa.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/taisa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/top-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/bordado-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/badge-top.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/curl-left.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/curl-right.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/menu-principal.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/album-fotos.gif" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/album-fotos.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/corpo-bg.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/slider/loading.gif" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/slider/loading.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/sign.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/sign.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/section-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/corpo-bg-bottom.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/footer-bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/slider/arrows.png" for 127.0.0.1 at 2013-03-07 07:34:02 -0300
+Served asset /site/slider/arrows.png - 304 Not Modified (0ms)
