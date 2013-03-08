@@ -18,7 +18,7 @@ module ApplicationHelper
       "Home" => root_path,
       "Confirme sua Presença" => presence_path,
       "Cotas de Lua de Mel" => cotas_path,
-      "Local" => root_path,
+      "Local" => locations_path,
       "Sobre o Casal" => root_path,
       "Contato" => root_path
     }
