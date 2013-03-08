@@ -17,7 +17,7 @@ module ApplicationHelper
     pages = {
       "Home" => root_path,
       "Confirme sua Presença" => presence_path,
-      "Cotas de Lua de Mel" => root_path,
+      "Cotas de Lua de Mel" => cotas_path,
       "Local" => root_path,
       "Sobre o Casal" => root_path,
       "Contato" => root_path

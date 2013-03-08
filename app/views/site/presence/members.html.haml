@@ -13,19 +13,22 @@
       %th
         Presença
       %th
-        
-        
     -@members.each do |m|
       %tr
-        %td
-          =m.name
-        %td
-          -if m.confirmado == true 
+        -if m.confirmado == true 
+          %td.confirmado
+            =m.name
+          %td.confirmado
             Presença confirmada
-          -else
+          %td
+            =link_to "Cancelar Presença", family_path(m.parametrize_name), class: "confirm-link cancel" 
+        -else
+          %td.naoconfirmado
+            =m.name
+          %td.naoconfirmado
             Ainda não confirmada
-        %td
-          =link_to "Confirmar Presença", family_path(m.parametrize_name), class: "confirm-link"   
+          %td
+            =link_to "Confirmar Presença", family_path(m.parametrize_name), class: "confirm-link"   
   
   %br
   %br

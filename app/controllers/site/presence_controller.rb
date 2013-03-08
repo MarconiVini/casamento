@@ -1,5 +1,5 @@
 class Site::PresenceController < ApplicationController
-  layout "masters/site"
+  layout "masters/internal"
   def index
 
   end

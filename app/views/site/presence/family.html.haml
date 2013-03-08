@@ -2,25 +2,38 @@
   Convidados relacionados à
   =@family.name
 
-%table.resultados
-  %tr
-    %th
-      Nome
-    %th
-      Presença
-    %th
-      
-  -@members.each do |m|
+%p.description
+  Para confirmar a presença ao nosso casamento, basta digitar seu nome no box abaixo. 
+  %br
+  Selecionar seu nome na lista e confirmar a presença.
+  %br
+  Sua presença é muito importante contamos com você !
+
+.section-bg.mini
+  %h2{:style => "margin: 0 0 10px;"}
+    Confirmar os convidados relacionados à
+    =@family.name
+  %table.resultados
     %tr
-      %td
-        =m.name
-      %td
+      %th
+        Nome
+      %th
+        Presença
+      %th
+        
+    -@members.each do |m|
+      %tr
         -if m.confirmado == true 
-          Presença confirmada
+          %td.confirmado
+            =m.name
+          %td.confirmado
+            Presença confirmada
+          %td
+            =link_to "Cancelar Presença", family_member_cancel_path(m.parametrize_name), :confirm => "Esta certo que quer cancelar a participação do membro #{m.name} ?", class: "confirm-link cancel"
         -else
-          Ainda não confirmada
-      %td
-        -if m.confirmado == true
-          =link_to "Cancelar Presença", family_member_cancel_path(m.parametrize_name)
-        -else
-          =link_to "Confirmar Presença", family_member_confirm_path(m.parametrize_name) 
+          %td.naoconfirmado
+            =m.name
+          %td.naoconfirmado
+            Ainda não confirmada
+          %td          
+            =link_to "Confirmar Presença", family_member_confirm_path(m.parametrize_name), class: "confirm-link" 
