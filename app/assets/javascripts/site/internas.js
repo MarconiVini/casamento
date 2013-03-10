@@ -22,4 +22,17 @@ $(document).ready(function() {
 	if (error.length != 0){
 		$('.form-add').slideToggle(800);
 	}
+	//menu principal a parte dos noivos
+	$('.albumlink').next().hide();
+	$('.albumlink').on('click', function(event){
+		event.stopPropagation();
+		event.preventDefault();
+		return false;
+	});
+	$('.albummenu').on('mouseenter', function(){
+		$(this).find('ul').fadeIn();
+	});
+	$('.albummenu').on('mouseleave', function(){
+		$(this).find('ul').fadeOut();
+	});
 });

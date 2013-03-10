@@ -41,7 +41,7 @@ $(document).ready(function() {
 	$('.albummenu').on('mouseenter', function(){
 		$(this).find('ul').fadeIn();
 	});
-	$('.albummenu').on('mouseleave',	function(){
+	$('.albummenu').on('mouseleave', function(){
 		$(this).find('ul').fadeOut();
 	});
 });

@@ -13,5 +13,18 @@ $(document).ready(function() {
 			top : ($(this).parent().height() - $(this).outerHeight()) / 2
 		})
 	});
+	//menu principal a parte dos noivos
+	$('.albumlink').next().hide();
+	$('.albumlink').on('click', function(event){
+		event.stopPropagation();
+		event.preventDefault();
+		return false;
+	});
+	$('.albummenu').on('mouseenter', function(){
+		$(this).find('ul').fadeIn();
+	});
+	$('.albummenu').on('mouseleave', function(){
+		$(this).find('ul').fadeOut();
+	});
 
 }); 
