@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).load(function(){
 	$('.fancybox').fancybox();
 	/*
 	$('.fancybox img').css({
@@ -13,6 +13,8 @@ $(document).ready(function() {
 			top : ($(this).parent().height() - $(this).outerHeight()) / 2
 		})
 	});
+});
+$(document).ready(function() {
 	//menu principal a parte dos noivos
 	$('.albumlink').next().hide();
 	$('.albumlink').on('click', function(event){
