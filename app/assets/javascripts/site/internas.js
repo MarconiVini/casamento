@@ -9,4 +9,17 @@ $(document).ready(function() {
 		$(".bloco-local").hide();
 		$("." + name + "").fadeIn(800).addClass("active");
 	});	
+	
+	//formulario add acompanhante
+	$('.add-acompanhante').on('click', function(event){
+		event.stopPropagation;
+		event.preventDefault;
+		$('.form-add').slideToggle(800);
+		return false;
+	})
+	//Mensagem de erro
+	error = $('.notice');
+	if (error.length != 0){
+		$('.form-add').slideToggle(800);
+	}
 });

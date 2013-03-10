@@ -10,7 +10,7 @@
   Sua presença é muito importante contamos com você !
 
 .section-bg.mini
-  %h2{:style => "margin: 0 0 10px;"}
+  %h2{:style => "margin: 0 0 10px; padding: 0;"}
     Confirmar os convidados relacionados à
     =@family.name
   %table.resultados
@@ -37,3 +37,63 @@
             Ainda não confirmada
           %td          
             =link_to "Confirmar Presença", family_member_confirm_path(m.parametrize_name), class: "confirm-link" 
+    -@followers.each do |f|
+      %tr
+        %td.convidado
+          =f.name
+        %td.convidado{colspan: "2", stye: "text-align: center;"}
+          Estamos verificando 
+            
+  %br
+  .form-acompanhante
+    =link_to "Adicionar acompanhante", "#", class: "add-acompanhante"
+    %br
+    .form-add
+      %h4
+        Por favor, os acompanhantes devem ser pessoas próximas ou familiares (ex: Namorado, filhos etc.)
+      -if flash[:notice]
+        %p.notice
+          =flash[:notice].html_safe
+      =form_tag("#{request.path}/#{@family.id}/adicionar-acompanhante", method: :get) do
+        %table
+          -if flash[:notice]
+            %tr
+              %td.error-notice
+                =label_tag :follower, "Nome:"
+              %td.error-notice
+                =text_field_tag :follower, "", class: "text-box"
+            %tr
+              %td.error-notice
+                =label_tag :text, "Detalhes:"
+              %td.error-notice
+                =text_area :text, "Nos fale um pouco sobre seu convidado para ", class: "text-area"
+          -else
+            %tr
+              %td
+                =label_tag :follower, "Nome:"
+              %td
+                =text_field_tag :follower, "", class: "text-box"
+            %tr
+              %td
+                =label_tag :text, "Detalhes:"
+              %td
+                =text_area :text, "Nos fale um pouco sobre seu acompanhante para que possamos incluí-lo na lista", class: "text-area"
+                
+          %tr
+            %td
+              
+            %td
+              =submit_tag "Adicionar"
+.clearboth
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

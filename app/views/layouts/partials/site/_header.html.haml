@@ -12,3 +12,14 @@
   %ul
     -site_main_menu.each do |item|
       =item.html_safe
+    %li.albummenu{style: "position:relative"}
+      =link_to "Álbum", "#", class: "albumlink"
+      %ul
+        %li
+          =link_to "Noivos", "#"
+        %li
+          =link_to "Amigos", "#"
+        %li
+          =link_to "Família", "#"
+        %li
+          =link_to "test", "#"

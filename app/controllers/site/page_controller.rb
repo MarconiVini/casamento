@@ -12,5 +12,15 @@ class Site::PageController < ApplicationController
   def local
     
   end
+  
+  def album
+    @pag = params[:page_num]
+    @range = case @pag
+      when "amigos" then 1..21
+      when "familia" then 1..35
+      when "noivos" then 1..15
+    end
+    render :layout => "masters/layoutimagens"
+  end
 
 end
