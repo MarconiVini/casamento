@@ -42,7 +42,8 @@ class Site::PresenceController < ApplicationController
   def add_follower
     family = params[:family]
     name = params[:follower]
-    @follower = Follower.create(name: name, family_id: family)
+    descricao = params[:text][:detalhes]
+    @follower = Follower.create(name: name, family_id: family, description: descricao)
     
     if @follower.save
       redirect_to :family

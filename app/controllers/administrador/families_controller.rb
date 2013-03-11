@@ -14,6 +14,8 @@ class Administrador::FamiliesController < ApplicationController
   
   def show
     @family = Family.find(params[:id])
+    @members = Member.find(:all, conditions: ["family_id = ?", params[:id]])
+    @followers = Follower.find(:all, conditions: ["family_id = ?", params[:id]])
   end
   
   def create

@@ -10,6 +10,7 @@ PersonalTrainer::Application.routes.draw do
     resources :admins
     resources :families
     resources :members
+    resources :contato
     
   end
   match "album/:page_num" => 'site/page#album', as: :album
@@ -26,14 +27,11 @@ PersonalTrainer::Application.routes.draw do
   
   match "cotas-de-lua-de-mel" => 'site/page#cotas', via: :get, as: :cotas
   match "local" => 'site/page#local', via: :get, as: :locations
+  match "contato" => 'site/contato#index', via: :get, as: :contato
+  match "contato" => 'site/contato#submit', via: :post
   
   
   root :to => 'site/page#index'
-  
-  #match ':ninja' => 'ninja#index'
-  #match ':ninja/new' => 'ninja#new'
-  #match ':ninja/*skill' => 'ninja#skill'
-  
   
 # The priority is based upon order of creation:
 # first created -> highest priority.

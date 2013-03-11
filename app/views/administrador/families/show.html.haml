@@ -1,0 +1,61 @@
+%h1
+  Convidados das pessoas relacionadas à:
+  =@family.name
+#notice
+  = notice
+
+%table
+  %tr
+    %th
+      Nome do convidado
+    %th
+      Confirmado?
+    %th
+      Criado em
+    %th
+      Última atualização
+  -@members.each do |m|    
+    %tr
+      %td
+        =m.name
+      %td
+        -if m.confirmado?
+          Confirmado
+        -else
+          Ainda não Confirmado
+      %td
+        = distance_of_time_in_words(m.created_at, Time.now, true)    
+      %td
+        = distance_of_time_in_words(m.updated_at, Time.now, true)   
+
+-if @followers.length > 0
+  %h2
+    Acompanhantes:
+  %table
+    %tr
+      %th
+        Nome do convidado
+      %th
+        Criado em
+      %th
+        Última atualização
+      %th
+        Descrição
+    -@followers.each do |m|    
+      %tr
+        %td
+          =m.name
+        %td
+          = distance_of_time_in_words(m.created_at, Time.now, true)    
+        %td
+          = distance_of_time_in_words(m.updated_at, Time.now, true)
+        %td
+          = m.description
+
+%p
+  %b
+    Name:
+    = @family.name
+= link_to 'Editar', edit_administrador_family_path(@family)
+|
+= link_to 'Voltar', administrador_families_path

@@ -45,7 +45,7 @@
           Estamos verificando 
             
   %br
-  .form-acompanhante
+  .form-acompanhante.contact-form
     =link_to "Adicionar acompanhante", "#", class: "add-acompanhante"
     %br
     .form-add
@@ -66,7 +66,7 @@
               %td.error-notice
                 =label_tag :text, "Detalhes:"
               %td.error-notice
-                =text_area :text, "Nos fale um pouco sobre seu convidado para ", class: "text-area"
+                =text_area :text, "detalhes", class: "text-area"
           -else
             %tr
               %td
@@ -77,7 +77,7 @@
               %td
                 =label_tag :text, "Detalhes:"
               %td
-                =text_area :text, "Nos fale um pouco sobre seu acompanhante para que possamos incluí-lo na lista", class: "text-area"
+                =text_area :text, "detalhes", class: "text-area"
                 
           %tr
             %td

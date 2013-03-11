@@ -1,34 +1,36 @@
 .resultados-container
   =render "top_and_form"
-
-  -unless @members.nil?
+  -if @members.length < 1;
+    %h2{style: "width: 100%; text-align:center; font-size: 20px; padding: 0;"}
+      Nenhum resultado encontrado
+  -else    
     %h2
       Resultados Encontrados para a busca "
       =@query
       ":
-  %table.resultados
-    %tr
-      %th
-        Nome do Convidado
-      %th
-        Presença
-      %th
-    -@members.each do |m|
+    %table.resultados
       %tr
-        -if m.confirmado == true 
-          %td.confirmado
-            =m.name
-          %td.confirmado
-            Presença confirmada
-          %td
-            =link_to "Cancelar Presença", family_path(m.parametrize_name), class: "confirm-link cancel" 
-        -else
-          %td.naoconfirmado
-            =m.name
-          %td.naoconfirmado
-            Ainda não confirmada
-          %td
-            =link_to "Confirmar Presença", family_path(m.parametrize_name), class: "confirm-link"   
+        %th
+          Nome do Convidado
+        %th
+          Presença
+        %th
+      -@members.each do |m|
+        %tr
+          -if m.confirmado == true 
+            %td.confirmado
+              =m.name
+            %td.confirmado
+              Presença confirmada
+            %td
+              =link_to "Cancelar Presença", family_path(m.parametrize_name), class: "confirm-link cancel" 
+          -else
+            %td.naoconfirmado
+              =m.name
+            %td.naoconfirmado
+              Ainda não confirmada
+            %td
+              =link_to "Confirmar Presença", family_path(m.parametrize_name), class: "confirm-link"   
   
   %br
   %br

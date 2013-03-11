@@ -1,0 +1,70 @@
+%h1
+  Contato
+%p.description
+  Qualquer informação que queira compartilhar ou perguntar nos contacte pelo formulário abaixo: 
+.section-bg.mini
+  .contact-form
+    -if @contact.errors.any?
+      %ul.notice
+        -@contact.errors.full_messages.each do |msg| 
+          %li
+            = msg  
+    
+    =form_for @contact, url: {:action => "submit"} do |c|
+      %table
+        %tr
+          %td
+            =c.label :name, "Nome: "
+          %td
+            =c.text_field :name
+        %tr
+          %td
+            =c.label :email, "Email: "
+          %td
+            =c.text_field :email
+        %tr
+          %td
+            =c.label :text, "Dúvida ou comentário: "
+          %td
+            =c.text_area :text
+        %tr
+          %td
+            
+          %td
+            =c.submit "Enviar"
+  
+    %h2
+      Contato de Marcos Vinicius e Taisa Pires
+    .noivo
+      %p
+        %span
+          Noivo
+      %p 
+        %span
+          Cel Claro: 
+        (19) 8155-0360
+      %p 
+        %span
+          Cel Tim: 
+        (19) 8155-0360
+      %p
+        %span
+          Email: 
+        =link_to "cardosounicamp@gmail.com", "mailto:cardosounicamp@gmail.com"
+    .noiva
+      %p
+        %span
+          Noiva
+      %p 
+        %span
+          Cel Tim: 
+        (19) 8155-0360
+      %p
+        %span
+          Email: 
+        =link_to "cardosounicamp@gmail.com", "mailto:cardosounicamp@gmail.com"  
+        
+    
+    
+    
+  .clearboth

@@ -22,5 +22,9 @@ class Site::PageController < ApplicationController
     end
     render :layout => "masters/layoutimagens"
   end
+  
+  def contact
+    
+  end
 
 end

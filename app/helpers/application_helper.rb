@@ -5,7 +5,8 @@ module ApplicationHelper
     pages = {
       "Visualizar administradores" => administrador_admins_path,
       "Visualizar Familias" => administrador_families_path,
-      "Visualizar Membros" => administrador_members_path
+      "Visualizar Membros" => administrador_members_path,
+      "Visualizar Mensagens" => administrador_contato_index_path
     }
     pages.map do |key, value|
       classnames = %( class="active") if "/#{params[:controller]}" == value
@@ -20,7 +21,7 @@ module ApplicationHelper
       "Cotas de Lua de Mel" => cotas_path,
       "Local" => locations_path,
       "Sobre o Casal" => root_path,
-      "Contato" => root_path
+      "Contato" => contato_path
     }
     pages.map do |key, value|
       #classnames = %( class="active") if "/#{params[:controller]}" == value
