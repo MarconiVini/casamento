@@ -1,0 +1,26 @@
+= form_for [:administrador, @homemessage] do |f|
+  -if @homemessage.errors.any? 
+    %div#error_explanation
+      %h2
+        = pluralize(@homemessage.errors.count, "error")
+        evitou que a mensagem fosse editada
+      %ul
+        -@homemessage.errors.full_messages.each do |msg|
+          %li
+            = msg
+  %table
+    %tr
+      %th  
+        = f.label "Nome"
+      %th
+        = f.label "Message"
+      %th
+        = f.label "Mensagem Aprovada?"
+    %tr
+      %td
+        = f.text_field :name
+      %td
+        =f.text_field :message
+      %td
+    
+  = f.submit "Editar mensagem Mensagem"

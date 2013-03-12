@@ -6,7 +6,8 @@ module ApplicationHelper
       "Visualizar administradores" => administrador_admins_path,
       "Visualizar Familias" => administrador_families_path,
       "Visualizar Membros" => administrador_members_path,
-      "Visualizar Mensagens" => administrador_contato_index_path
+      "Visualizar Mensagens" => administrador_contato_index_path,
+      "Mensagens Home" => administrador_homemessage_path
     }
     pages.map do |key, value|
       classnames = %( class="active") if "/#{params[:controller]}" == value

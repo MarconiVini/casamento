@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130310173321) do
+ActiveRecord::Schema.define(:version => 20130311143913) do
 
   create_table "admin_sessions", :force => true do |t|
     t.string   "id_session_hash"
@@ -49,6 +49,14 @@ ActiveRecord::Schema.define(:version => 20130310173321) do
     t.string   "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "homemessages", :force => true do |t|
+    t.string   "name"
+    t.string   "message"
+    t.boolean  "approved",   :default => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
   end
 
   create_table "members", :force => true do |t|

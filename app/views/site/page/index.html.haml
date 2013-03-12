@@ -77,15 +77,62 @@
       %p
         =link_to "Ler Mais", "#"
 %div.section-bg
-  .one-third
-    
-  .one-third
-    %h3
-      test
-  .one-third.last
-  
-  
+  .one-third.contact-form
+    %h3.mensagens
+      Deixe uma mensagem aos Noivos    
+    -unless flash[:errors].nil?
+      %ul.notice
+        %li.strong
+          -if flash[:errors].length > 0
+            Os seguintes erros foram encontrados:
+          -else
+            O seguinte erro foi encontrado:
+        -flash[:errors].each do |msg| 
+          %li
+            = msg
 
+    =form_for @mensage, url: {:action => "submit"} do |msg|
+      %table 
+        %tr
+          %td
+            =msg.label :name, "Nome: "
+          %td
+            =msg.text_field :name
+        %tr
+          %td
+            =msg.label :message, "Mensagem aos Noivos: "
+          %td
+            =msg.text_area :message
+        %tr
+          %td
+              
+          %td
+            =msg.submit "Enviar", class: "enviar"
+     
+  .two-third
+    %h3.mensagens
+      Últimas mensagens deixadas aos noivos 
+    -if @mensages.length > 1
+      .coluna-esquerda
+        %h4
+          =@mensages.first.name
+        %p
+          =@mensages.first.message
+        %p.postado
+          Postado à
+          =distance_of_time_in_words(@mensages.first.created_at, Time.now, true)  
+      .coluna-direita
+        %h4
+          =@mensages.last.name
+        %p
+          =@mensages.last.message
+        %p.postado
+          Postado à
+          =distance_of_time_in_words(@mensages.last.created_at, Time.now, true)  
+.clearboth  
+-unless flash[:notice].nil?
+  .flash
+    =flash[:notice]
 
 
 

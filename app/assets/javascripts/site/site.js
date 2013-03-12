@@ -21,5 +21,10 @@ $(document).ready(function() {
         lastSlide: function(){}, // Triggers when last slide is shown
         afterLoad: function(){} // Triggers when slider has loaded
     });
+    if ($('.flash').length > 0){
+    	$("html, body").animate({ scrollTop: $(document).height() }, "slow");
+    	alert($('.flash').text());
+    }
+    
 });
 

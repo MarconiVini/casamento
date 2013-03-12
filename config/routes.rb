@@ -11,6 +11,9 @@ PersonalTrainer::Application.routes.draw do
     resources :families
     resources :members
     resources :contato
+    match "homemessage" => 'homemessage#index'
+    match "homemessage/aprovar/:id" => 'homemessage#aprovar'
+    match "homemessage/reprovar/:id" => 'homemessage#reprovar'
     
   end
   match "album/:page_num" => 'site/page#album', as: :album
@@ -29,7 +32,7 @@ PersonalTrainer::Application.routes.draw do
   match "local" => 'site/page#local', via: :get, as: :locations
   match "contato" => 'site/contato#index', via: :get, as: :contato
   match "contato" => 'site/contato#submit', via: :post
-  
+  match "submit" => 'site/page#submit'
   
   root :to => 'site/page#index'
   

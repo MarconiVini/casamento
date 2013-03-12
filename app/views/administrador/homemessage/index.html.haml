@@ -1,0 +1,35 @@
+%h1
+  Listando Mensagens da Home
+
+%table
+  %tr
+    %th
+      Nome
+    %th
+      Mensagem
+    %th
+      Confirmada?
+    %th
+      Aprovar?
+    %th
+    %th
+  -@homemessages.each do |msg|
+    %tr
+      %td
+        = msg.name
+      %td
+        = msg.message
+      %td
+        -if msg.approved == true
+          Sim
+        -else
+          Não
+      %td  
+        -if msg.approved == true
+          = link_to 'Reprovar', "homemessage/reprovar/#{msg.id}"
+        -else
+          = link_to 'Aprovar', "homemessage/aprovar/#{msg.id}"       
+      %td
+        = link_to 'Deletar', administrador_homemessage_path(msg), method: :delete, data: { confirm: "Esta certo que quer deletar esta mensagem ?" }
+%br
+= #link_to 'Nova Familia', new_administrador_homemessage_path

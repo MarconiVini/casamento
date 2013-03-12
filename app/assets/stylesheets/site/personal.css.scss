@@ -38,6 +38,19 @@ a:hover{
   clear:both;
 }
 
+.time {
+  float: left;
+  left: 0px;
+  position: absolute;
+  top: -88px;
+}
+
+.fb-like-buttom{
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: -92px;
+}
 .foxform input, .foxform textarea {
   background-color: #FFFFFF;
   border: 1px solid #C0C0C0;
@@ -267,6 +280,7 @@ a:hover{
 .section-bg article p a{
   color: #CC9503;
   text-decoration: none;
+  float:right;
 }
 
 .section-bg article p a:hover{
@@ -716,23 +730,104 @@ a.fancybox{
   border-bottom: 3px solid #F9CCCC;
 }
 
+.one-third{
+  width: 310px;
+  float:left;
+  margin: 0 15px 0 0;
+  padding: 0 10px;
+}
 
+.one-third.last{
+  margin:0;
+}
 
+h3.mensagens{
+  background: url("footer-border.png") no-repeat scroll 0 24px transparent;
+  color: #999999;
+  float: left;
+  font-family: Corsiva,arial;
+  font-size: 22px;
+  margin: 0 0 15px;
+  padding: 0 0 8px;
+  text-align: left;
+  text-shadow: 2px 2px 3px #999999;
+  width: auto;
+}
 
+.one-third.contact-form form{
+  float:left;
+}
 
+.one-third.contact-form form table{
+  width: 300px;
+}
+.one-third.contact-form form table input{
+  width:180px;
+}
 
+.one-third.contact-form form table textarea{ 
+  max-height: 100px;
+  max-width: 180px;
+  min-height: 60px;
+  min-width: 150px;
+}
 
+.one-third.contact-form .enviar{
+  width: 70px;
+}
+.one-third.contact-form .enviar:hover{
+  background: #C0C0C0;
+}
 
+.one-third.contact-form .notice{
+  float:left;
+}
 
+.one-third.contact-form .notice li{
+    float: left;
+    padding: 3px;
+    text-align: left;
+}
 
+.one-third.contact-form .notice li.strong{
+  font-weight: bold;
+}
 
+.two-third{
+  width: 580px;
+  float:left;
+}
 
+.two-third .coluna-esquerda, .two-third .coluna-direita{
+  width:280px;
+  min-height:120px;
+  position:relative;
+}
 
+.two-third .coluna-esquerda p, .two-third .coluna-direita p{
+  width: 210px;
+}
 
+.two-third .coluna-esquerda h4, .two-third .coluna-direita h4{
+  font-size: 22px;
+}
 
+.two-third .postado{
+  position:absolute;
+  bottom: -16px;
+}
 
+.flash{
+  display:none;
+}
 
+.errors input, .errors textarea{
+   background: #F9CCCC;
+}
 
+.errors input.enviar{
+  background: #fff;
+}
 
 
 
