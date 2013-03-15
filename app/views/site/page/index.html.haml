@@ -129,6 +129,9 @@
         %p.postado
           Postado à
           =distance_of_time_in_words(@mensages.last.created_at, Time.now, true)  
+    -else
+      %p{style: "float:left; width: 100%;"}
+        Nenhuma mensagem foi confirmada pelos noivos, aguarde. 
 .clearboth  
 -unless flash[:notice].nil?
   .flash

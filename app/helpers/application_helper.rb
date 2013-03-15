@@ -1,6 +1,6 @@
 #encoding: utf-8
 module ApplicationHelper
-  
+  require 'date'
   def main_menu
     pages = {
       "Visualizar administradores" => administrador_admins_path,
@@ -30,4 +30,47 @@ module ApplicationHelper
     end
   end
   
+  def tempo_para_casamento(data)
+    datacasamento = Date.parse(data)
+    datacasamento_meses = datacasamento.month
+    datacasamento_dias = datacasamento.day
+    now = Date.today
+    mes_atual = now.month
+    dia_atual = now.day
+    if ((datacasamento_meses - mes_atual) > 1 )
+      diferenca = datacasamento_meses - mes_atual
+      "Restam #{diferenca} meses para o nosso Casamento!"  
+    else
+      diferenca = datacasamento.mjd - now.mjd
+      if diferenca > 0
+        "Restam #{diferenca} dias para o nosso Casamento!"
+      else
+        "Enfim Casados ! Yey !"
+      end
+    end
+  end
+  
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

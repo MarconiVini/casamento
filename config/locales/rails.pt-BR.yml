@@ -211,6 +211,8 @@ pt-BR:
         password_digest: "Senha"
         name: "Nome"
         admin_level: "Nível do Administrador"
+      contato:
+        text: "Comentário"
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:
     errors:

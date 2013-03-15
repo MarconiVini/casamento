@@ -39,10 +39,10 @@ $(document).ready(function() {
 		return false;
 	});
 	$('.albummenu').on('mouseenter', function(){
-		$(this).find('ul').fadeIn();
+		$(this).find('ul').stop(true).slideToggle();
 	});
 	$('.albummenu').on('mouseleave', function(){
-		$(this).find('ul').fadeOut();
+		$(this).find('ul').stop(true).slideToggle();
 	});
 });
 
