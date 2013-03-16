@@ -33,6 +33,7 @@ group :development, :test do
   gem 'guard-rspec', '0.5.5'
   gem 'sqlite3' 
   gem 'debugger'
+  gem 'annotate', '2.5.0'
 end
 
 group :test do

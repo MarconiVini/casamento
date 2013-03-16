@@ -213,6 +213,8 @@ pt-BR:
         admin_level: "Nível do Administrador"
       contato:
         text: "Comentário"
+      fee:
+        value: "Valor depositado"
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:
     errors:

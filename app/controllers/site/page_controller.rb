@@ -9,7 +9,8 @@ class Site::PageController < ApplicationController
   end    
   
   def cotas
-    
+    @objective = Fee.total_funds
+    @cota = Fee.new
   end
   
   def local
@@ -40,6 +41,16 @@ class Site::PageController < ApplicationController
       flash[:notice] ="Desculpe,não foi possível enviar a mensagem ! Verifique os erros e tente novamente."
       flash[:errors] = erros
       redirect_to :action => :index
+    end
+  end
+  
+  def submit_fee
+    @cota = Fee.create(params[:fee])
+    if @cota.save
+    
+    else
+      @objective = Fee.total_funds
+      render :action => :cotas, :objective => @objective
     end
   end
 

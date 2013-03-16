@@ -35,4 +35,33 @@ $(document).ready(function() {
 	$('.albummenu').on('mouseleave', function(){
 		$(this).find('ul').fadeOut();
 	});
+	
+	
+	$('.cota-form ul li .field_with_errors').prev().css('border-bottom', "3px solid #F9CCCC");
+	total = parseInt($('.objetivo1 .porcentagem .value').html());
+	value = parseInt($('.objetivo1 .image .value').html());
+	percent = (total*100)/value;
+	$('.bar-container .bar-progress').css('width', percent+"%");
+	$('.objetivo1 .porcentagem').text(Math.floor(percent)+"%");
+	
+	console.log(percent); 
+	
+	
+	
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

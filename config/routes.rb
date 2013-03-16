@@ -11,6 +11,10 @@ PersonalTrainer::Application.routes.draw do
     resources :families
     resources :members
     resources :contato
+    match "fee" => 'fee#index'
+    match "fee/aprovar/:id" => 'fee#aprovar'
+    match "fee/reprovar/:id" => 'fee#reprovar'
+    
     match "homemessage" => 'homemessage#index'
     match "homemessage/aprovar/:id" => 'homemessage#aprovar'
     match "homemessage/reprovar/:id" => 'homemessage#reprovar'
@@ -33,6 +37,7 @@ PersonalTrainer::Application.routes.draw do
   match "contato" => 'site/contato#index', via: :get, as: :contato
   match "contato" => 'site/contato#submit', via: :post
   match "submit" => 'site/page#submit'
+  match "submit_fee" => 'site/page#submit_fee'
   
   root :to => 'site/page#index'
   

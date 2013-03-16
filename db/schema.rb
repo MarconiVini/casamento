@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130311143913) do
+ActiveRecord::Schema.define(:version => 20130316104202) do
 
   create_table "admin_sessions", :force => true do |t|
     t.string   "id_session_hash"
@@ -41,6 +41,17 @@ ActiveRecord::Schema.define(:version => 20130311143913) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "fees", :force => true do |t|
+    t.integer  "value"
+    t.string   "outros"
+    t.string   "name"
+    t.string   "email"
+    t.string   "message"
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
+    t.boolean  "confirm_deposit", :default => false
   end
 
   create_table "followers", :force => true do |t|

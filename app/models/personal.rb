@@ -1,3 +1,14 @@
+# == Schema Information
+#
+# Table name: personals
+#
+#  id         :integer          not null, primary key
+#  name       :string(255)
+#  email      :string(255)
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 class Personal < ActiveRecord::Base
   belongs_to :admin
   before_create :default_value

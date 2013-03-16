@@ -1,0 +1,42 @@
+%h1
+  Visualizando As Cotas
+
+-if @fee.length == 0
+  Nenhum depósito encontrado.
+-else
+  %table
+    %tr
+      %th
+        Nome
+      %th
+        Email
+      %th
+        Mensagem
+      %th
+        Valor Depositado
+      %th
+        Confirmado depósito?
+      %th
+        Confirmar
+    -@fee.each do |fee|
+      %tr
+        %td
+          = fee.name
+        %td
+          = fee.email
+        %td
+          = fee.message
+        %td
+          = fee.value
+        %td
+          -if fee.confirm_deposit == false
+            Não
+          -else
+            Sim
+        %td
+          -if fee.confirm_deposit == true
+            = link_to 'Cancelar', "fee/reprovar/#{fee.id}"
+          -else
+            = link_to 'Confirmar', "fee/aprovar/#{fee.id}"   
+
+
