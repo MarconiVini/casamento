@@ -1,0 +1,15 @@
+%h1
+  Mensages deixadas aos Noivos
+%div.section-bg
+  %div.messages-noivos
+    -if @mensages.nil?
+      Nenhuma mensagem Encontrada
+    -else
+      -@mensages.each do |m|
+        %h4
+          =m.name
+        %p
+          =m.message
+          %span.data
+            Enviado há
+            =distance_of_time_in_words(m.created_at, Time.now, true)  

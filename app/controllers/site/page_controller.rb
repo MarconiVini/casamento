@@ -20,9 +20,10 @@ class Site::PageController < ApplicationController
   def album
     @pag = params[:page_num]
     @range = case @pag
-      when "amigos" then 1..21
+      when "amigos" then 1..23
       when "familia" then 1..35
       when "noivos" then 1..15
+      when "padrinhos" then 1..10
     end
     render :layout => "masters/layoutimagens"
   end
@@ -52,6 +53,10 @@ class Site::PageController < ApplicationController
       @objective = Fee.total_funds
       render :action => :cotas, :objective => @objective
     end
+  end
+  
+  def messages
+    @mensages = Homemessage.all
   end
 
 end

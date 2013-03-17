@@ -38,7 +38,12 @@ PersonalTrainer::Application.routes.draw do
   match "contato" => 'site/contato#submit', via: :post
   match "submit" => 'site/page#submit'
   match "submit_fee" => 'site/page#submit_fee'
+  match "mensagens-aos-noivos" => 'site/page#messages', as: :home_messages
   
+  match "sobre-o-noivo" => "site/noivos#noivo"
+  match "sobre-a-noiva" => "site/noivos#noiva"
+  match "sobre-os-noivos" => "site/noivos#sobre_os_noivos", as: :sobre_os_noivos
+   
   root :to => 'site/page#index'
   
 # The priority is based upon order of creation:

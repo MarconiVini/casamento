@@ -45,9 +45,9 @@
       %p
         Falar dele não é muito difícil, afinal são quase oito anos juntos. Eu achava que ele era o companheiro em que sempre sonhava, 
         mas hoje eu tenho a mais pura certeza de que eu nunca sonhei com ele, 
-        jamais imaginava encontrar alguém em demasia carinhoso...
+        jamais imaginava...
       %p
-        =link_to "Ler Mais", "#"
+        =link_to "Ler Mais", "sobre-o-noivo"
   %div.coluna-direita
     %article
       %div.PhotoEffect2
@@ -73,9 +73,9 @@
         Sobre a Noiva...
       %p
         A Taísa foi um sonho que se realizou, soube disso na primeira vez que a vi, quando nossos olhares cruzaram a mensagem que ficou foi felicidade, 
-        amor, companheirismo. Desde então venho passando cada minuto da minha vida pensando e planejando como vou viver e ser feliz ao lado dela. 
+        amor, companheirismo. Desde então venho passando cada minuto... 
       %p
-        =link_to "Ler Mais", "#"
+        =link_to "Ler Mais", "sobre-a-noiva"
 %div.section-bg
   .one-third.contact-form
     %h3.mensagens
@@ -129,9 +129,11 @@
         %p.postado
           Postado à
           =distance_of_time_in_words(@mensages.last.created_at, Time.now, true)  
+      .clearboth 
+      =link_to "Ver todas as Mensagens", home_messages_path, class: "all-messages" 
     -else
       %p{style: "float:left; width: 100%;"}
-        Nenhuma mensagem foi confirmada pelos noivos, aguarde. 
+        Nenhuma mensagem foi confirmada pelos noivos, aguarde.
 .clearboth  
 -unless flash[:notice].nil?
   .flash

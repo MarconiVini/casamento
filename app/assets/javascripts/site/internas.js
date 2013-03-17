@@ -30,23 +30,28 @@ $(document).ready(function() {
 		return false;
 	});
 	$('.albummenu').on('mouseenter', function(){
-		$(this).find('ul').fadeIn();
+		$(this).find('ul').stop(true).slideToggle();
 	});
 	$('.albummenu').on('mouseleave', function(){
-		$(this).find('ul').fadeOut();
+		$(this).find('ul').stop(true).slideToggle();
 	});
 	
-	
+	//mensagens de erros
 	$('.cota-form ul li .field_with_errors').prev().css('border-bottom', "3px solid #F9CCCC");
+	
+	//Funcionalidade das cotas
 	total = parseInt($('.objetivo1 .porcentagem .value').html());
 	value = parseInt($('.objetivo1 .image .value').html());
 	percent = (total*100)/value;
 	$('.bar-container .bar-progress').css('width', percent+"%");
 	$('.objetivo1 .porcentagem').text(Math.floor(percent)+"%");
 	
-	console.log(percent); 
+	//console.log(percent); 
 	
-	
+	if ($('.flash').length > 0){
+    	$("html, body").animate({ scrollTop: $(document).height() }, "slow");
+    	alert($('.flash').text());
+    }
 	
 });
 

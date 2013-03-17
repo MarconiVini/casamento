@@ -22,7 +22,7 @@ module ApplicationHelper
       "Confirme sua Presença" => presence_path,
       "Cotas de Lua de Mel" => cotas_path,
       "Local" => locations_path,
-      "Sobre o Casal" => root_path,
+      "Sobre o Casal" => sobre_os_noivos_path,
       "Contato" => contato_path
     }
     pages.map do |key, value|
@@ -40,11 +40,11 @@ module ApplicationHelper
     dia_atual = now.day
     if ((datacasamento_meses - mes_atual) > 1 )
       diferenca = datacasamento_meses - mes_atual
-      "Restam #{diferenca} meses para o nosso Casamento!"  
+      "Restam #{diferenca} meses"  
     else
       diferenca = datacasamento.mjd - now.mjd
       if diferenca > 0
-        "Restam #{diferenca} dias para o nosso Casamento!"
+        "Restam #{diferenca} dias"
       else
         "Enfim Casados ! Yey !"
       end

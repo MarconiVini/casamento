@@ -1,3 +1,4 @@
+#encoding: utf-8
 class Site::ContatoController < ApplicationController
   layout "masters/internal"
   def index
@@ -6,8 +7,9 @@ class Site::ContatoController < ApplicationController
   
   def submit
     @contact = Contato.create(params[:contato])
-    if @contact.save
-      redirect_to :index, :flash => {:notice => "Mensagem enviada com sucesso !"}
+    if @contact.save!
+      flash[:notice] ="Parabéns, mensagem enviada com sucesso !"
+      redirect_to contato_path
     else
       render :index
     end
