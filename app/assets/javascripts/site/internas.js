@@ -40,13 +40,27 @@ $(document).ready(function() {
 	$('.cota-form ul li .field_with_errors').prev().css('border-bottom', "3px solid #F9CCCC");
 	
 	//Funcionalidade das cotas
+	/*
 	total = parseInt($('.objetivo1 .porcentagem .value').html());
 	value = parseInt($('.objetivo1 .image .value').html());
 	percent = (total*100)/value;
 	$('.bar-container .bar-progress').css('width', percent+"%");
 	$('.objetivo1 .porcentagem').text(Math.floor(percent)+"%");
-	
+	*/
 	//console.log(percent); 
+	
+	var total = 0;
+	var totalearned = parseInt($('.totalearned').text());
+	$('.objetivo').each(function(){
+	    total += parseInt($(this).find('.image .value').text());
+	    if (total < totalearned){
+	        $(this).addClass("obj-completo");
+	        console.log('yeyy');
+	    }else{
+	        
+	    }
+	    console.log(total);
+	});
 	
 	if ($('.flash').length > 0){
     	$("html, body").animate({ scrollTop: $(document).height() }, "slow");
