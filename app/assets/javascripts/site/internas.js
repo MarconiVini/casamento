@@ -51,15 +51,22 @@ $(document).ready(function() {
 	
 	var total = 0;
 	var totalearned = parseInt($('.totalearned').text());
+	console.log("totalearned", totalearned);
 	$('.objetivo').each(function(){
-	    total += parseInt($(this).find('.image .value').text());
+	    total = parseInt($(this).find('.image .value').text());
 	    if (total < totalearned){
+	       	console.log("total", total);
 	        $(this).addClass("obj-completo");
-	        console.log('yeyy');
+	        $(this).find('.porcentagem').text('100%');
+	        $(this).find('.bar-container .bar-progress').css('width', "100%");
+	        totalearned -= total;
 	    }else{
-	        
+	       
+	        percent = Math.floor((totalearned*100)/total);
+	        $(this).find('.porcentagem').text(percent);
+	        $(this).find('.bar-container .bar-progress').css('width', percent+"%");
+	        console.log(percent);
 	    }
-	    console.log(total);
 	});
 	
 	if ($('.flash').length > 0){
