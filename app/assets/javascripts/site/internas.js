@@ -63,7 +63,7 @@ $(document).ready(function() {
 	    }else{
 	       
 	        percent = Math.floor((totalearned*100)/total);
-	        $(this).find('.porcentagem').text(percent);
+	        $(this).find('.porcentagem').text(percent + "%");
 	        $(this).find('.bar-container .bar-progress').css('width', percent+"%");
 	        console.log(percent);
 	    }
