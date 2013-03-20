@@ -41,7 +41,6 @@ $(document).ready(function() {
 	
 	//Funcionalidade das cotas
 	/*
-	total = parseInt($('.objetivo1 .porcentagem .value').html());
 	value = parseInt($('.objetivo1 .image .value').html());
 	percent = (total*100)/value;
 	$('.bar-container .bar-progress').css('width', percent+"%");
@@ -51,26 +50,40 @@ $(document).ready(function() {
 	
 	var total = 0;
 	var totalearned = parseInt($('.totalearned').text());
+	var percent = 0;
 	console.log("totalearned", totalearned);
 	$('.objetivo').each(function(){
 	    total = parseInt($(this).find('.image .value').text());
 	    if (total < totalearned){
-	       	console.log("total", total);
 	        $(this).addClass("obj-completo");
 	        $(this).find('.porcentagem').text('100%');
 	        $(this).find('.bar-container .bar-progress').animate({
 	        	width: '100%'
-	        }, 3000);
+	        }, 3000, 'linear');
 	        totalearned -= total;
 	    }else{
 	       
 	        percent = Math.floor((totalearned*100)/total);
-	        $(this).find('.porcentagem').text(percent + "%");
+	        //$(this).find('.porcentagem').text(percent + "%");
 	        $(this).find('.bar-container .bar-progress').animate({
 	        	width: percent+"%"
-	        }, 3000);
+	        }, 3000, 'linear');
+	        
 	    }
+	    
+	    intervalOfCounter($(this));
+	    
 	});
+	
+	function intervalOfCounter(u){
+	    var count = 0;
+	    var timeId = setInterval(function(){
+	    	u.find('.porcentagem').html(count + "%");
+	    	count++;
+	    	if (count > percent)
+	    		clearInterval(timeId);
+	    }, Math.floor(3000/percent));
+    }
 	
 	if ($('.flash').length > 0){
     	$("html, body").animate({ scrollTop: $(document).height() }, "slow");
