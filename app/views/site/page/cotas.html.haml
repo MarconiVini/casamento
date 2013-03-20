@@ -84,6 +84,8 @@
               =c.submit "Enviar"
         
 .clearboth    
-    
+-unless flash[:notice].nil?
+  .flash
+    =flash[:notice]
     
     
