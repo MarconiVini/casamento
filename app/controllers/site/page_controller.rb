@@ -48,7 +48,7 @@ class Site::PageController < ApplicationController
   def submit_fee
     @cota = Fee.create(params[:fee])
     if @cota.save
-    
+      redirect_to :cotas
     else
       @objective = Fee.total_funds
       render :action => :cotas, :objective => @objective

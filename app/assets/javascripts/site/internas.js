@@ -58,13 +58,19 @@ $(document).ready(function() {
 	       	console.log("total", total);
 	        $(this).addClass("obj-completo");
 	        $(this).find('.porcentagem').text('100%');
-	        $(this).find('.bar-container .bar-progress').css('width', "100%");
+	        //$(this).find('.bar-container .bar-progress').css('width', "100%");
+	        $(this).find('.bar-container .bar-progress').animate({
+	        	width: '100%'
+	        }, 3000);
 	        totalearned -= total;
 	    }else{
 	       
 	        percent = Math.floor((totalearned*100)/total);
 	        $(this).find('.porcentagem').text(percent + "%");
-	        $(this).find('.bar-container .bar-progress').css('width', percent+"%");
+	        //$(this).find('.bar-container .bar-progress').css('width', percent+"%");
+	        $(this).find('.bar-container .bar-progress').animate({
+	        	width: percent+"%"
+	        }, 3000);
 	        console.log(percent);
 	    }
 	});
