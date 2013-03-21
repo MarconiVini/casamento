@@ -51,7 +51,6 @@ $(document).ready(function() {
 	var total = 0;
 	var totalearned = parseInt($('.totalearned').text());
 	var percent = 0;
-	console.log("totalearned", totalearned);
 	$('.objetivo').each(function(){
 	    total = parseInt($(this).find('.image .value').text());
 	    if (total < totalearned){
@@ -61,29 +60,29 @@ $(document).ready(function() {
 	        	width: '100%'
 	        }, 3000, 'linear');
 	        totalearned -= total;
-	    }else{
-	       
+	        porcantagemTotal = 100;
+	    }else{	       
 	        percent = Math.floor((totalearned*100)/total);
-	        //$(this).find('.porcentagem').text(percent + "%");
 	        $(this).find('.bar-container .bar-progress').animate({
 	        	width: percent+"%"
 	        }, 3000, 'linear');
-	        
+	        porcantagemTotal = percent;
 	    }
-	    
-	    intervalOfCounter($(this));
+	    intervalOfCounter($(this), porcantagemTotal);
 	    
 	});
 	
-	function intervalOfCounter(u){
+	function intervalOfCounter(u, porcantagemTotal){
 	    var count = 0;
 	    var timeId = setInterval(function(){
 	    	u.find('.porcentagem').html(count + "%");
 	    	count++;
-	    	if (count > percent)
+	    	if (count > porcantagemTotal)
 	    		clearInterval(timeId);
-	    }, Math.floor(3000/percent));
+	    }, Math.floor(3000/porcantagemTotal));
     }
+	
+	//http://stackoverflow.com/questions/6215779/scroll-if-element-is-not-visible
 	
 	if ($('.flash').length > 0){
     	$("html, body").animate({ scrollTop: $(document).height() }, "slow");
