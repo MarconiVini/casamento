@@ -53,12 +53,13 @@ $(document).ready(function() {
 	var percent = 0;
 	$('.objetivo').each(function(){
 	    total = parseInt($(this).find('.image .value').text());
-	    if (total < totalearned){
-	        $(this).addClass("obj-completo");
+	    if (total < totalearned){	        
 	        $(this).find('.porcentagem').text('100%');
 	        $(this).find('.bar-container .bar-progress').animate({
 	        	width: '100%'
-	        }, 3000, 'linear');
+	        }, 3000, 'linear', function(){
+	        	$(this).closest('.objetivo').addClass("obj-completo");       	
+	        });
 	        totalearned -= total;
 	        porcantagemTotal = 100;
 	    }else{	       
