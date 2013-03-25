@@ -7,7 +7,7 @@ class Site::ContatoController < ApplicationController
   
   def submit
     @contact = Contato.create(params[:contato])
-    if @contact.save!
+    if @contact.save
       flash[:notice] ="Parabéns, mensagem enviada com sucesso !"
       redirect_to contato_path
     else

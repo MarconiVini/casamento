@@ -849,14 +849,17 @@ h3.mensagens{
 }
 
 .main-objective .porcentagem{
+  float: left;
   font-family: arial;
   font-size: 20px;
+  margin: 18px 0 0;
 }
 
 .bar-container{
   width:400px;
   border:1px solid #AAAAAA;
   height: 20px;
+  float:left;
 }
 
 .bar-container .bar-progress{
@@ -1009,7 +1012,11 @@ right: 0;
   padding: 0 20px 10px 0;
 }
 
-
+.name{  
+  float: right;
+  font-size: 20px;
+  margin: 0 200px 0 0;
+}
 
 
 
