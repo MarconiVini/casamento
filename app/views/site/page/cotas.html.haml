@@ -35,6 +35,45 @@
         %span.value
           1000
     
+    .clearboth
+    
+    .coluna-esquerda
+      %h4.conta-corrente
+        Marcos Vinicius Cardoso Santini
+      %p
+        %span.bold
+          Santander
+        %br
+        %span.bold
+          Agência: 
+        3910
+        %br
+        %span.bold
+          Conta Corrente: 
+        01082094-9
+        
+      
+    .coluna-direita
+      %h4.conta-corrente
+        Taisa Pires de Jesus
+      %p
+        %span.bold
+          Banco do Brasil
+        %br
+        %span.bold
+          Agência: 
+        0212-7
+        %br
+        %span.bold
+          Conta Poupança:
+        33344-1
+        %br
+        %span.bold
+          Variação: 
+        51
+    
+    .clearboth
+    
     .cota-form
       %h3
         %span
@@ -43,7 +82,7 @@
         %ul.notice
           -@cota.errors.full_messages.each do |cota| 
             %li
-              = cota     
+              = cota 
       =form_for @cota, url: {:action => "submit_fee"} do |c|
         %h4
           Valor depositado:
