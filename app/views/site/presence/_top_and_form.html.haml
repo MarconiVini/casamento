@@ -15,11 +15,11 @@
     %table.search-form
       %tr
         %th
-          =f.label :name, "Digite seu nome abaixo:"
+          =f.label :name, "Digite seu nome abaixo:", class: "presence-label"
         %th
           
       %tr
         %td
-          =f.text_field :name
+          =f.text_field :name, class: "presence-input"
         %td
-          =f.submit "Buscar"
+          =f.submit "Buscar", class: "confirm-presence"
