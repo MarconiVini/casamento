@@ -887,27 +887,49 @@ h3.mensagens{
 .image{
   float: left;
   position: absolute;
-  right: 0;
+  right: -100px;
   top: -70px;
 }
 
 .objetivo{
   position:relative;
   width: 580px;
-  margin: 40px 0 100px;
+  margin: 40px 0 120px;
   float: left;
 }
 
 .objetivo1 .image{
-  background: url("promo/tv-win2.png") no-repeat scroll 0 0 transparent;
+  background: url("promo/tv-plama.png") no-repeat scroll 0 0 transparent;
   display: block;
   height: 200px;
-  width: 200px;
+  width: 280px;
+  right:-70px;
 }
 
 .objetivo1.obj-completo .image{
   background: url("promo/tv-plama-win.png") no-repeat scroll 0 0 transparent;
-  
+}
+
+.objetivo2 .image{
+  background: url("promo/hotel.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 200px;
+  width: 280px;
+}
+
+.objetivo2.obj-completo .image{
+  background: url("promo/hotel-win.png") no-repeat scroll 0 0 transparent;
+}
+
+.objetivo3 .image{
+  background: url("promo/viagem.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 200px;
+  width: 280px;
+}
+
+.objetivo3.obj-completo .image{
+  background: url("promo/viagem-win.png") no-repeat scroll 0 0 transparent;
 }
 
 .value{
