@@ -44,6 +44,9 @@ $(document).ready(function() {
 	$('.albummenu').on('mouseleave', function(){
 		$(this).find('ul').stop(true).slideToggle();
 	});
+	$('.main-menu').find('li:eq(1)').on('click', function(){
+	    alert('test');
+	});
 });
 
 
