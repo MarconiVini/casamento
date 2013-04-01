@@ -45,7 +45,7 @@ $(document).ready(function() {
 		$(this).find('ul').stop(true).slideToggle();
 	});
 	$('.main-menu').find('li:eq(1)').on('click', function(){
-	    alert('test');
+	    alert('Você poderá confirmar sua presença assim que enviarmos o convite para os convidados !');
 	});
 });
 
