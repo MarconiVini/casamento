@@ -41,7 +41,7 @@ module ApplicationHelper
     dia_atual = now.day
     if ((datacasamento_meses - mes_atual) > 1 )
       diferenca = datacasamento_meses - mes_atual
-      "Restam #{diferenca} meses"  
+      "Restam apenas #{diferenca} meses"  
     else
       diferenca = datacasamento.mjd - now.mjd
       if diferenca > 0
@@ -52,6 +52,24 @@ module ApplicationHelper
     end
   end
   
+  def tempo_em_dias_para_o_casamento(data)
+    datacasamento = Date.parse(data)
+    now = Date.today
+    dif_in_days = (datacasamento - now).to_i
+    if dif_in_days < 0
+      return "Estamos Felizes e Casados !"  
+    end
+    
+    if dif_in_days < 1
+      return "Hoje é o Grande Dia !"  
+    end
+    
+    if dif_in_days > 27
+      "Restam #{dif_in_days} dias para o casamento!"
+    else
+      dif_in_days == 1 ? "Resta apenas #{dif_in_days} dia para o casamento!" : "Restam apenas #{dif_in_days} dias para o casamento!"
+    end
+  end  
 end
 
 
