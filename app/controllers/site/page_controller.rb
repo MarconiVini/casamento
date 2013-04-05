@@ -21,7 +21,7 @@ class Site::PageController < ApplicationController
     @pag = params[:page_num]
     @range = case @pag
       when "amigos" then 1..27
-      when "familia" then 1..66
+      when "familia" then 1..64
       when "noivos" then 1..15
       when "padrinhos" then 1..12
     end
