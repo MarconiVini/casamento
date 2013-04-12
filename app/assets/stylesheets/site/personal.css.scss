@@ -860,61 +860,70 @@ h3.mensagens{
   float: left;
   font-family: arial;
   font-size: 20px;
+  margin: 98px 0 0 39px;
+  font-size: 14px;
+  color: #fff;
 }
 
 .bar-container{
-  width:400px;
-  border:1px solid #AAAAAA;
-  height: 20px;
   float:left;
+  width: 405px;
+  display:block;
+  margin: 1px 0 0 6px;
+  height:20px;
+}
+
+.bar-container .bar-init{
+  float:left;
+  background: url("promo/progress-bar-bg-left.png") no-repeat scroll 0 0 transparent;
+  width: 10px;
+  height: 19px;
 }
 
 .bar-container .bar-progress{
-  background: rgb(201,222,150); /* Old browsers */
-  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M5ZGU5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzhhYjY2YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzOTgyMzUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-  background: -moz-linear-gradient(top,  rgba(201,222,150,1) 0%, rgba(138,182,107,1) 44%, rgba(57,130,53,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,222,150,1)), color-stop(44%,rgba(138,182,107,1)), color-stop(100%,rgba(57,130,53,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=0 ); /* IE6-8 */
-  height: 20px;
-  width: 0%;
+  float:left;
+  background: url("promo/progress-bar-bg-mid.png") repeat-x scroll 0 0 transparent;
+  height: 19px
+}
+
+.bar-container .bar-end{
+  float:left;
+  background: url("promo/progress-bar-bg-right.png") no-repeat scroll 0 0 transparent;
+  width: 10px;
+  height: 19px;
 }
 
 .image{
-  float: left;
+  float: right;
+  display: block;
+  height: 145px;
+  width: 254px;
+  right: -90px;
   position: absolute;
-  right: -100px;
-  top: -70px;
+  right: 14px;
+  top: 8px;
 }
 
 .objetivo{
-  position:relative;
-  width: 580px;
-  margin: 40px 0 120px;
+  display: block;
+  background: url("promo/cotas-bg.png") no-repeat scroll 0 0 transparent;
+  width: 679px;
+  height: 190px;
+  margin: 0 0 30px 0;
   float: left;
+  position: relative;
 }
 
 .objetivo1 .image{
-  background: url("promo/tv-plama.png") no-repeat scroll 0 0 transparent;
-  display: block;
-  height: 200px;
-  width: 280px;
-  right:-90px;
+  background: url("promo/tv-plasma.png") no-repeat scroll 0 0 transparent;
 }
 
 .objetivo1.obj-completo .image{
-  background: url("promo/tv-plama-win.png") no-repeat scroll 0 0 transparent;
+  background: url("promo/tv-plasma-win.png") no-repeat scroll 0 0 transparent;
 }
 
 .objetivo2 .image{
   background: url("promo/hotel.png") no-repeat scroll 0 0 transparent;
-  display: block;
-  height: 200px;
-  width: 280px;
 }
 
 .objetivo2.obj-completo .image{
@@ -923,9 +932,6 @@ h3.mensagens{
 
 .objetivo3 .image{
   background: url("promo/viagem.png") no-repeat scroll 0 0 transparent;
-  display: block;
-  height: 200px;
-  width: 280px;
 }
 
 .objetivo3.obj-completo .image{
@@ -1042,9 +1048,9 @@ right: 0;
 }
 
 .name{  
-  float: right;
-  font-size: 20px;
-  margin: 0 200px 0 0;
+  float: left;
+  font-size: 30px;
+  margin: 82px 0px 0 40px;
 }
 
 .confirm-presence{

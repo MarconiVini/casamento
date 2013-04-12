@@ -47,7 +47,7 @@ $(document).ready(function() {
 	$('.objetivo1 .porcentagem').text(Math.floor(percent)+"%");
 	*/
 	//console.log(percent);
-
+	//385px
 	var total = 0;
 	var totalearned = parseInt($('.totalearned').text());
 	var percent = 0;
@@ -56,7 +56,7 @@ $(document).ready(function() {
 		if (total < totalearned) {
 			$(this).find('.porcentagem').text('100%');
 			$(this).find('.bar-container .bar-progress').animate({
-				width : '100%'
+				width : '385px'
 			}, 3000, 'linear', function() {
 				$(this).closest('.objetivo').addClass("obj-completo");
 			});
@@ -68,7 +68,7 @@ $(document).ready(function() {
 				porcantagemTotal = 0;
 			} else {
 				$(this).find('.bar-container .bar-progress').animate({
-					width : percent + "%"
+					width : ((385*percent)/100) + "px"
 				}, 3000, 'linear');
 				porcantagemTotal = percent;
 				console.log('else');
