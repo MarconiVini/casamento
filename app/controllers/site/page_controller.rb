@@ -47,15 +47,18 @@ class Site::PageController < ApplicationController
   
   def submit_fee
     @cota = Fee.create(params[:fee])
-    if @cota.save
+    @cota.value = params[:value_other] unless @cota.value != 0
+    if @cota.save 
       flash[:notice] ="Parabéns, mensagem enviada com sucesso !"
       redirect_to :cotas
     else
+      @error = true
       @objective = Fee.total_funds
       render :action => :cotas, :objective => @objective
     end
+ 
   end
-  
+
   def messages
     @mensages = Homemessage.all
   end

@@ -110,10 +110,7 @@
             =c.radio_button :value, "30"
           %li
             =label :fee_value, "50", "R$ 50"
-            =c.radio_button :value, "50"
-          %li
-            =label :fee_value, "70", "R$ 70"
-            =c.radio_button :value, "70"
+            =c.radio_button :value, "50"          
           %li
             =label :fee_value, "100", "R$ 100"
             =c.radio_button :value, "100"
@@ -123,6 +120,9 @@
           %li
             =label :fee_value, "200", "R$ 200"
             =c.radio_button :value, "200"
+          %li.outrovalor
+            =label :fee_value, "Outros", "Outros"
+            =c.radio_button :value, "Outros"
         .clearboth
         %table
           %tr
@@ -135,6 +135,11 @@
               =c.label :email, "Email"
             %td
               =c.text_field :email
+          %tr.displaynone.new-value
+            %td.label
+              =label :value_other, "Valor depositado (em Reais)"
+            %td
+              =text_field_tag :value_other, "", {"class" => "value_other"}
           %tr
             %td.label
               =c.label :message, "Mensagem aos noivos"
@@ -146,9 +151,14 @@
             %td
               =c.submit "Enviar"
         
-.clearboth    
+.clearboth   
+
 -unless flash[:notice].nil?
   .flash
-    =flash[:notice]
+    Parabéns, mensagem enviada com sucesso !
+
+-unless @error.nil?
+  %script
+    $("html, body").animate({ scrollTop : $(document).height() }, "slow");
     
     

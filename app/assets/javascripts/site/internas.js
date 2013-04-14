@@ -100,6 +100,65 @@ $(document).ready(function() {
 	$('.main-menu').find('li:eq(1)').on('click', function(){
 	    alert('Você poderá confirmar sua presença assim que enviarmos o convite para os convidados !');
 	});
-
+	
+	$('.outrovalor input').on('click', function(){
+		$('.new-value').toggleClass('displaynone');		
+	});
+	
+	$('.value_other').on('blur', function(){
+		var regExpr = new RegExp("\d");
+		if (regExpr.test($(this).val())) {
+			console.log("$(this).val: " + $(this).val());
+			console.log("regExpr.test($(this).val()): " + regExpr.test($(this).val()));
+	      $(this).val("");
+	    }
+		
+	});
+	
+	function testField(field) {
+	    var regExpr = new RegExp("^\d*\.?\d*$");
+	    if (!regExpr.test(field.value)) {
+	      // Case of error
+	      field.value = "";
+	    }
+	}
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
