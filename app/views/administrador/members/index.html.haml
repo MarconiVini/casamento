@@ -9,15 +9,12 @@
       Vinculado à Familia
     %th
     %th
-    %th
   -@membros.each do |member|
     %tr
       %td
         = member.name
       %td
         = member.family.name
-      %td
-        = link_to 'Mostrar', administrador_member_path(member.id), method: :get
       %td
         = link_to 'Editar', edit_administrador_member_path(member)
       %td

@@ -19,8 +19,15 @@ class Administrador::FamiliesController < ApplicationController
   end
   
   def create
-    @family = Family.new(params[:family])
+    @family = Family.new(params[:family])    
     if @family.save
+      u = Member.find_by_name(@family.name)
+      
+      if u.nil?
+        novoMembro = Member.new({name: @family.name, family_id: @family.id})
+        novoMembro.save!
+      end
+      
       redirect_to action: :index
     else
       flash[:notice] = "Nao foi possivel salvar o usuario."
@@ -30,6 +37,17 @@ class Administrador::FamiliesController < ApplicationController
   
   def edit
     @family = Family.find(params[:id])
+  end
+  
+  def update
+    @family = Family.find(params[:id])
+    if @family.update_attributes(params[:family])
+      flash[:notice] = "O Membro \"#{@family.name}\" foi editado com sucesso !"
+      redirect_to :action => :index
+    else
+      render :action => :edit
+    end
+
   end
   
   def destroy
