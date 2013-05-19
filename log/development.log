@@ -12900,3 +12900,173 @@ Served asset /jquery.js - 304 Not Modified (1ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:15:23 -0300
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador" for 127.0.0.1 at 2013-05-19 14:34:49 -0300
+Connecting to database specified by database.yml
+Processing by Administrador::AdminSessionController#new as HTML
+  Rendered administrador/admin_session/new.html.haml within layouts/masters/login (6.0ms)
+  Rendered layouts/partials/_footer.html.haml (2.0ms)
+Completed 200 OK in 219ms (Views: 218.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:34:52 -0300
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:34:52 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started POST "/administrador/create" for 127.0.0.1 at 2013-05-19 14:34:55 -0300
+Processing by Administrador::AdminSessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YgwfzVssPs3oLU16O3zwnN9LtXg77ZAud8HR1TNrA6w=", "login"=>"cardosounicamp@gmail.com", "senha"=>"xtaisax", "commit"=>"Login"}
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."email" = 'cardosounicamp@gmail.com' LIMIT 1[0m
+Redirected to http://localhost:3000/administrador/admins
+Completed 302 Found in 406ms (ActiveRecord: 23.0ms)
+
+
+Started GET "/administrador/admins" for 127.0.0.1 at 2013-05-19 14:34:55 -0300
+Processing by Administrador::AdminsController#index as HTML
+  [1m[35mAdmin Load (34.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAdmin Load (1.0ms)[0m  [1mSELECT "admins".* FROM "admins" [0m
+  Rendered administrador/admins/index.html.haml within layouts/masters/administrador (95.0ms)
+  Rendered layouts/partials/_header.html.haml (6.0ms)
+  Rendered layouts/partials/_menu.html.haml (4.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 179ms (Views: 142.0ms | ActiveRecord: 35.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:34:56 -0300
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:34:56 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:34:56 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador/families" for 127.0.0.1 at 2013-05-19 14:34:58 -0300
+Processing by Administrador::FamiliesController#index as HTML
+  [1m[35mAdmin Load (1.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFamily Load (0.0ms)[0m  [1mSELECT "families".* FROM "families" [0m
+  Rendered administrador/families/index.html.haml within layouts/masters/administrador (4.0ms)
+  Rendered layouts/partials/_header.html.haml (2.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 37ms (Views: 32.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:34:58 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:34:58 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:34:58 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador/families/new" for 127.0.0.1 at 2013-05-19 14:34:59 -0300
+Processing by Administrador::FamiliesController#new as HTML
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered administrador/families/_form.html.erb (28.0ms)
+  Rendered administrador/families/new.html.haml within layouts/masters/administrador (31.0ms)
+  Rendered layouts/partials/_header.html.haml (2.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 109ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:35:00 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:35:00 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:35:00 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started POST "/administrador/families" for 127.0.0.1 at 2013-05-19 14:35:02 -0300
+Processing by Administrador::FamiliesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YgwfzVssPs3oLU16O3zwnN9LtXg77ZAud8HR1TNrA6w=", "family"=>{"name"=>"Marcos Santini test"}, "commit"=>"Criar Familia"}
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mFamily Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "families" WHERE LOWER("families"."name") = LOWER('Marcos Santini test') LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "families" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sun, 19 May 2013 14:35:02 BRT -03:00], ["name", "Marcos Santini test"], ["updated_at", Sun, 19 May 2013 14:35:02 BRT -03:00]]
+  [1m[36m (102.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mMember Load (1.0ms)[0m  SELECT "members".* FROM "members" WHERE "members"."name" = 'Marcos Santini test' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mMember Exists (1.0ms)[0m  SELECT 1 AS one FROM "members" WHERE LOWER("members"."name") = LOWER('Marcos Santini test') LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "members" ("confirmado", "created_at", "family_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["confirmado", false], ["created_at", Sun, 19 May 2013 14:35:02 BRT -03:00], ["family_id", 7], ["name", "Marcos Santini test"], ["updated_at", Sun, 19 May 2013 14:35:02 BRT -03:00]]
+  [1m[35m (99.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/administrador/families
+Completed 302 Found in 374ms (ActiveRecord: 208.0ms)
+
+
+Started GET "/administrador/families" for 127.0.0.1 at 2013-05-19 14:35:03 -0300
+Processing by Administrador::FamiliesController#index as HTML
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFamily Load (1.0ms)[0m  SELECT "families".* FROM "families" 
+  Rendered administrador/families/index.html.haml within layouts/masters/administrador (2.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (1.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:35:03 -0300
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:35:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:35:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/administrador/families/7" for 127.0.0.1 at 2013-05-19 14:35:06 -0300
+Processing by Administrador::FamiliesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YgwfzVssPs3oLU16O3zwnN9LtXg77ZAud8HR1TNrA6w=", "id"=>"7"}
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFamily Load (1.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mMember Load (0.0ms)[0m  SELECT "members".* FROM "members" WHERE "members"."family_id" = 7
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "members" WHERE "members"."id" = ?[0m  [["id", 8]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "families" WHERE "families"."id" = ?  [["id", 7]]
+  [1m[36m (113.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/administrador/families
+Completed 302 Found in 273ms (ActiveRecord: 115.0ms)
+
+
+Started GET "/administrador/families" for 127.0.0.1 at 2013-05-19 14:35:06 -0300
+Processing by Administrador::FamiliesController#index as HTML
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFamily Load (1.0ms)[0m  [1mSELECT "families".* FROM "families" [0m
+  Rendered administrador/families/index.html.haml within layouts/masters/administrador (0.0ms)
+  Rendered layouts/partials/_header.html.haml (2.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 42ms (Views: 39.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:35:06 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:35:06 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:35:07 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
