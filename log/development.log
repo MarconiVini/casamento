@@ -11984,3 +11984,503 @@ Served asset /jquery.js - 304 Not Modified (8ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-18 14:42:01 -0300
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-19 13:59:24 -0300
+Connecting to database specified by database.yml
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (0.0ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (48.0ms)
+  Rendered layouts/partials/site/_header.html.haml (7.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (1.0ms)
+Completed 200 OK in 1421ms (Views: 974.0ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-05-19 13:59:29 -0300
+Served asset /site/personal.css - 200 OK (6ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-05-19 13:59:29 -0300
+Served asset /site/nivo-slider.css - 200 OK (42ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-05-19 13:59:29 -0300
+Served asset /site/reset.css - 200 OK (4ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:29 -0300
+Served asset /site/jquery-1.9.0.min.js - 200 OK (3ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:29 -0300
+Served asset /site/site.js - 200 OK (3ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/jquery.nivo.slider.js - 200 OK (4ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/home.js - 200 OK (3ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /analytics.js - 200 OK (3ms)
+
+
+Started GET "/assets/site/foto/Aliancas-big.jpg" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/foto/Aliancas-big.jpg - 200 OK (30ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa-maylin-big.jpg" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/foto/marcos-taisa-maylin-big.jpg - 200 OK (31ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa-big.jpg" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/foto/marcos-taisa-big.jpg - 200 OK (56ms)
+
+
+Started GET "/assets/site/bordado-bg.gif" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/bordado-bg.gif - 200 OK (34ms)
+
+
+Started GET "/assets/site/top-bg.gif" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/top-bg.gif - 200 OK (44ms)
+
+
+Started GET "/assets/site/site-bg.gif" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/site-bg.gif - 200 OK (11ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa6-big.jpg" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/foto/marcos-taisa6-big.jpg - 200 OK (22ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa5-big.jpg" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/foto/marcos-taisa5-big.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa4-big.jpg" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/foto/marcos-taisa4-big.jpg - 200 OK (12ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa3-big.jpg" for 127.0.0.1 at 2013-05-19 13:59:30 -0300
+Served asset /site/foto/marcos-taisa3-big.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/site/foto/marcos-taisa2-big.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/marcos-taisa2-big.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/site/foto/mini-marcos3.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-marcos3.jpg - 200 OK (20ms)
+
+
+Started GET "/assets/site/foto/mini-marcos.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-marcos.jpg - 200 OK (26ms)
+
+
+Started GET "/assets/site/foto/mini-marcos1.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-marcos1.jpg - 200 OK (20ms)
+
+
+Started GET "/assets/site/foto/mini-marcos2.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-marcos2.jpg - 200 OK (19ms)
+
+
+Started GET "/assets/site/foto/mini-marcos4.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-marcos4.jpg - 200 OK (17ms)
+
+
+Started GET "/assets/site/foto/mini-marcos5.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-marcos5.jpg - 200 OK (35ms)
+
+
+Started GET "/assets/site/foto/mini-marcos6.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-marcos6.jpg - 200 OK (17ms)
+
+
+Started GET "/assets/site/foto/mini-tata1.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-tata1.jpg - 200 OK (14ms)
+
+
+Started GET "/assets/site/foto/mini-tata.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-tata.jpg - 200 OK (32ms)
+
+
+Started GET "/assets/site/foto/mini-tata2.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-tata2.jpg - 200 OK (20ms)
+
+
+Started GET "/assets/site/foto/mini-tata3.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-tata3.jpg - 200 OK (55ms)
+
+
+Started GET "/assets/site/foto/mini-tata4.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-tata4.jpg - 200 OK (17ms)
+
+
+Started GET "/assets/site/foto/mini-tata5.jpg" for 127.0.0.1 at 2013-05-19 13:59:31 -0300
+Served asset /site/foto/mini-tata5.jpg - 200 OK (15ms)
+
+
+Started GET "/assets/site/foto/mini-tata6.jpg" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/foto/mini-tata6.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/site/taisa.jpg" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/taisa.jpg - 200 OK (17ms)
+
+
+Started GET "/assets/site/badge-top.png" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/badge-top.png - 200 OK (17ms)
+
+
+Started GET "/assets/site/curl-left.png" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/curl-left.png - 200 OK (67ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa.png" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/Marcos-vinicius-e-taisa.png - 200 OK (19ms)
+
+
+Started GET "/assets/site/curl-right.png" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/curl-right.png - 200 OK (6ms)
+
+
+Started GET "/assets/site/menu-principal.png" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/menu-principal.png - 200 OK (23ms)
+
+
+Started GET "/assets/site/corpo-bg.gif" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/corpo-bg.gif - 200 OK (15ms)
+
+
+Started GET "/assets/site/album-fotos.gif" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/album-fotos.gif - 200 OK (14ms)
+
+
+Started GET "/assets/site/slider/loading.gif" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/slider/loading.gif - 200 OK (34ms)
+
+
+Started GET "/assets/site/section-bg.jpg" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/section-bg.jpg - 200 OK (21ms)
+
+
+Started GET "/assets/site/sign.jpg" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/sign.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/site/footer-border.png" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/footer-border.png - 200 OK (10ms)
+
+
+Started GET "/assets/site/corpo-bg-bottom.jpg" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/corpo-bg-bottom.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/site/Marcos-vinicius-e-taisa-mini.png" for 127.0.0.1 at 2013-05-19 13:59:32 -0300
+Served asset /site/Marcos-vinicius-e-taisa-mini.png - 200 OK (26ms)
+
+
+Started GET "/assets/site/footer-bg.jpg" for 127.0.0.1 at 2013-05-19 13:59:33 -0300
+Served asset /site/footer-bg.jpg - 200 OK (19ms)
+
+
+Started GET "/assets/site/slider/arrows.png" for 127.0.0.1 at 2013-05-19 13:59:33 -0300
+Served asset /site/slider/arrows.png - 200 OK (6ms)
+
+
+Started GET "/assets/site/marcos.jpg" for 127.0.0.1 at 2013-05-19 13:59:33 -0300
+Served asset /site/marcos.jpg - 200 OK (26ms)
+
+
+Started GET "/administrador" for 127.0.0.1 at 2013-05-19 13:59:42 -0300
+Processing by Administrador::AdminSessionController#new as HTML
+  Rendered administrador/admin_session/new.html.haml within layouts/masters/login (6.0ms)
+  Rendered layouts/partials/_footer.html.haml (2.0ms)
+Completed 200 OK in 463ms (Views: 461.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:43 -0300
+Served asset /jquery.js - 200 OK (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:43 -0300
+Served asset /jquery_ujs.js - 200 OK (9ms)
+
+
+Started POST "/administrador/create" for 127.0.0.1 at 2013-05-19 13:59:49 -0300
+Processing by Administrador::AdminSessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xExhtLQilRZSZ8R0oKFMe9PHXZCgX2q0NieeXX4YSu8=", "login"=>"cardosounicamp@gmail.com", "senha"=>"xtaisax", "commit"=>"Login"}
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."email" = 'cardosounicamp@gmail.com' LIMIT 1
+Redirected to http://localhost:3000/administrador/admins
+Completed 302 Found in 206ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/administrador/admins" for 127.0.0.1 at 2013-05-19 13:59:50 -0300
+Processing by Administrador::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" 
+  Rendered administrador/admins/index.html.haml within layouts/masters/administrador (320.0ms)
+  Rendered layouts/partials/_header.html.haml (9.0ms)
+  Rendered layouts/partials/_menu.html.haml (6.0ms)
+  Rendered layouts/partials/_footer.html.haml (1.0ms)
+Completed 200 OK in 425ms (Views: 422.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:50 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:50 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador/families" for 127.0.0.1 at 2013-05-19 13:59:56 -0300
+Processing by Administrador::FamiliesController#index as HTML
+  [1m[36mAdmin Load (1.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFamily Load (0.0ms)[0m  SELECT "families".* FROM "families" 
+  Rendered administrador/families/index.html.haml within layouts/masters/administrador (5.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 42ms (Views: 34.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:56 -0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:56 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/administrador/families/new" for 127.0.0.1 at 2013-05-19 13:59:59 -0300
+Processing by Administrador::FamiliesController#new as HTML
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered administrador/families/_form.html.erb (81.0ms)
+  Rendered administrador/families/new.html.haml within layouts/masters/administrador (118.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 149ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:59 -0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 13:59:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador/members" for 127.0.0.1 at 2013-05-19 14:00:03 -0300
+Processing by Administrador::MembersController#index as HTML
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (1.0ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  [1m[35mFamily Load (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 5 LIMIT 1[0m
+  Rendered administrador/members/index.html.haml within layouts/masters/administrador (291.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 341ms (Views: 331.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:03 -0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/administrador/members/3" for 127.0.0.1 at 2013-05-19 14:00:11 -0300
+Processing by Administrador::MembersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xExhtLQilRZSZ8R0oKFMe9PHXZCgX2q0NieeXX4YSu8=", "id"=>"3"}
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (0.0ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "members" WHERE "members"."id" = ?[0m  [["id", 3]]
+  [1m[35m (102.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/administrador/members
+Completed 302 Found in 111ms (ActiveRecord: 103.0ms)
+
+
+Started GET "/administrador/members" for 127.0.0.1 at 2013-05-19 14:00:11 -0300
+Processing by Administrador::MembersController#index as HTML
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mMember Load (0.0ms)[0m  SELECT "members".* FROM "members" 
+  [1m[36mFamily Load (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 5 LIMIT 1[0m
+  Rendered administrador/members/index.html.haml within layouts/masters/administrador (3.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (1.0ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:11 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/administrador/members/6" for 127.0.0.1 at 2013-05-19 14:00:15 -0300
+Processing by Administrador::MembersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xExhtLQilRZSZ8R0oKFMe9PHXZCgX2q0NieeXX4YSu8=", "id"=>"6"}
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (1.0ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "members" WHERE "members"."id" = ?[0m  [["id", 6]]
+  [1m[35m (96.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/administrador/members
+Completed 302 Found in 103ms (ActiveRecord: 98.0ms)
+
+
+Started GET "/administrador/members" for 127.0.0.1 at 2013-05-19 14:00:15 -0300
+Processing by Administrador::MembersController#index as HTML
+  [1m[36mAdmin Load (1.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mMember Load (1.0ms)[0m  SELECT "members".* FROM "members" 
+  Rendered administrador/members/index.html.haml within layouts/masters/administrador (1.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (1.0ms)
+Completed 200 OK in 30ms (Views: 27.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:15 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:15 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador/families" for 127.0.0.1 at 2013-05-19 14:00:16 -0300
+Processing by Administrador::FamiliesController#index as HTML
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFamily Load (0.0ms)[0m  SELECT "families".* FROM "families" 
+  Rendered administrador/families/index.html.haml within layouts/masters/administrador (2.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 31ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:17 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:17 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/administrador/families/5" for 127.0.0.1 at 2013-05-19 14:00:20 -0300
+Processing by Administrador::FamiliesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xExhtLQilRZSZ8R0oKFMe9PHXZCgX2q0NieeXX4YSu8=", "id"=>"5"}
+  [1m[36mAdmin Load (1.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFamily Load (1.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mMember Load (0.0ms)[0m  SELECT "members".* FROM "members" WHERE "members"."family_id" = 5
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "families" WHERE "families"."id" = ?[0m  [["id", 5]]
+  [1m[35m (102.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/administrador/families
+Completed 302 Found in 204ms (ActiveRecord: 105.0ms)
+
+
+Started GET "/administrador/families" for 127.0.0.1 at 2013-05-19 14:00:21 -0300
+Processing by Administrador::FamiliesController#index as HTML
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFamily Load (0.0ms)[0m  SELECT "families".* FROM "families" 
+  Rendered administrador/families/index.html.haml within layouts/masters/administrador (0.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (1.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 30ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:21 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:21 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador/families/new" for 127.0.0.1 at 2013-05-19 14:00:25 -0300
+Processing by Administrador::FamiliesController#new as HTML
+  [1m[36mAdmin Load (0.0ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered administrador/families/_form.html.erb (3.0ms)
+  Rendered administrador/families/new.html.haml within layouts/masters/administrador (5.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:25 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:25 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/administrador/families" for 127.0.0.1 at 2013-05-19 14:00:36 -0300
+Processing by Administrador::FamiliesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xExhtLQilRZSZ8R0oKFMe9PHXZCgX2q0NieeXX4YSu8=", "family"=>{"name"=>"marcos inci"}, "commit"=>"Criar Familia"}
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mFamily Exists (0.0ms)[0m  SELECT 1 AS one FROM "families" WHERE LOWER("families"."name") = LOWER('marcos inci') LIMIT 1
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "families" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sun, 19 May 2013 14:00:37 BRT -03:00], ["name", "marcos inci"], ["updated_at", Sun, 19 May 2013 14:00:37 BRT -03:00]]
+  [1m[35m (127.0ms)[0m  commit transaction
+  [1m[36mMember Load (1.0ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."name" = 'marcos inci' LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mMember Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "members" WHERE LOWER("members"."name") = LOWER('marcos inci') LIMIT 1[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "members" ("confirmado", "created_at", "family_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["confirmado", false], ["created_at", Sun, 19 May 2013 14:00:37 BRT -03:00], ["family_id", 6], ["name", "marcos inci"], ["updated_at", Sun, 19 May 2013 14:00:37 BRT -03:00]]
+  [1m[36m (98.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/administrador/families
+Completed 302 Found in 457ms (ActiveRecord: 235.0ms)
+
+
+Started GET "/administrador/families" for 127.0.0.1 at 2013-05-19 14:00:37 -0300
+Processing by Administrador::FamiliesController#index as HTML
+  [1m[35mAdmin Load (1.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFamily Load (1.0ms)[0m  [1mSELECT "families".* FROM "families" [0m
+  Rendered administrador/families/index.html.haml within layouts/masters/administrador (2.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (1.0ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:37 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:37 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador/members" for 127.0.0.1 at 2013-05-19 14:00:40 -0300
+Processing by Administrador::MembersController#index as HTML
+  [1m[35mAdmin Load (0.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (0.0ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  [1m[35mFamily Load (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 6 LIMIT 1
+  Rendered administrador/members/index.html.haml within layouts/masters/administrador (3.0ms)
+  Rendered layouts/partials/_header.html.haml (1.0ms)
+  Rendered layouts/partials/_menu.html.haml (2.0ms)
+  Rendered layouts/partials/_footer.html.haml (0.0ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:40 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-19 14:00:40 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
