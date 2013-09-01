@@ -1,7 +1,6 @@
 #encoding: utf-8
 class Site::PageController < ApplicationController
-  # set per_page globally
-  WillPaginate.per_page = 8
+  
   
   layout "masters/internal"
   #layout "masters/internal", except: [:index]
@@ -63,6 +62,8 @@ class Site::PageController < ApplicationController
   end
 
   def messages
+    # set per_page globally
+    WillPaginate.per_page = 8
     @mensages = Homemessage.paginate(:page => params[:page]).where(approved: true).order("created_at DESC")
   end
 

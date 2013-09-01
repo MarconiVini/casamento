@@ -203,7 +203,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate (= 2.5.0)
-  bcrypt-ruby
+  bcrypt-ruby (~> 3.0.0)
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.1)
   dynamic_form

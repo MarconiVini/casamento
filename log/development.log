@@ -31908,3 +31908,112 @@ Served asset /site/internas.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 22:03:58 -0300
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/mensagens-aos-noivos" for 127.0.0.1 at 2013-08-31 23:43:03 -0300
+Connecting to database specified by database.yml
+Processing by Site::PageController#messages as HTML
+  [1m[36mHomemessage Load (2.1ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE "homemessages"."approved" = 't' ORDER BY created_at DESC LIMIT 8 OFFSET 0[0m
+  Rendered site/page/messages.html.haml within layouts/masters/internal (231.5ms)
+Compiled site/reset.css  (0ms)  (pid 6938)
+Compiled site/personal.css  (731ms)  (pid 6938)
+Compiled jquery.js  (6ms)  (pid 6938)
+Compiled jquery_ujs.js  (0ms)  (pid 6938)
+Compiled site/internas.js  (1ms)  (pid 6938)
+Compiled analytics.js  (0ms)  (pid 6938)
+  Rendered layouts/partials/site/_header.html.haml (12.6ms)
+  Rendered layouts/partials/site/_footer.html.haml (2.7ms)
+Completed 200 OK in 1680ms (Views: 1527.0ms | ActiveRecord: 127.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:08 -0300
+Served asset /jquery_ujs.js - 200 OK (22ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-08-31 23:43:08 -0300
+Served asset /site/reset.css - 200 OK (3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-08-31 23:43:08 -0300
+Served asset /site/personal.css - 200 OK (4ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:08 -0300
+Served asset /analytics.js - 200 OK (5ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:08 -0300
+Served asset /site/internas.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:08 -0300
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/mensagens-aos-noivos" for 127.0.0.1 at 2013-08-31 23:43:34 -0300
+Processing by Site::PageController#messages as HTML
+  [1m[35mHomemessage Load (1.1ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE "homemessages"."approved" = 't' ORDER BY created_at DESC LIMIT 3 OFFSET 0
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "homemessages" WHERE "homemessages"."approved" = 't'[0m
+  Rendered site/page/messages.html.haml within layouts/masters/internal (37.3ms)
+  Rendered layouts/partials/site/_header.html.haml (6.3ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 81ms (Views: 61.3ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-08-31 23:43:34 -0300
+Served asset /site/reset.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:34 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:34 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:34 -0300
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-08-31 23:43:34 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:34 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/mensagens-aos-noivos?page=2" for 127.0.0.1 at 2013-08-31 23:43:36 -0300
+Processing by Site::PageController#messages as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mHomemessage Load (1.9ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE "homemessages"."approved" = 't' ORDER BY created_at DESC LIMIT 3 OFFSET 3
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "homemessages" WHERE "homemessages"."approved" = 't'[0m
+  Rendered site/page/messages.html.haml within layouts/masters/internal (11.1ms)
+  Rendered layouts/partials/site/_header.html.haml (4.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.4ms)
+Completed 200 OK in 41ms (Views: 36.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-08-31 23:43:36 -0300
+Served asset /site/reset.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:36 -0300
+Served asset /site/internas.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:36 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:36 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-08-31 23:43:36 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-08-31 23:43:36 -0300
+Served asset /analytics.js - 304 Not Modified (2ms)
