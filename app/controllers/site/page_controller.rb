@@ -64,7 +64,7 @@ class Site::PageController < ApplicationController
   def messages
     # set per_page globally
     #WillPaginate.per_page = 8
-    @mensages = Homemessage.paginate(:page => params[:page], per_page: 8, order: "created_at DESC").where(approved: true)
+    @mensages = Homemessage.paginate(:page => params[:page], per_page: 3, order: "created_at DESC").where(approved: true)
   end
 
 end
