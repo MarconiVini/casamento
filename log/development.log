@@ -32487,3 +32487,2473 @@ Served asset /analytics.js - 304 Not Modified (3ms)
 
 Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-01 09:05:32 -0300
 Served asset /site/internas.js - 304 Not Modified (13ms)
+
+
+Started GET "/administrador/" for 127.0.0.1 at 2013-09-01 13:04:51 -0300
+Processing by Administrador::AdminSessionController#new as HTML
+  Rendered administrador/admin_session/new.html.haml within layouts/masters/login (9.3ms)
+Compiled application.css  (1ms)  (pid 8272)
+Compiled jquery.js  (6ms)  (pid 8272)
+Compiled jquery_ujs.js  (0ms)  (pid 8272)
+Compiled application.js  (90ms)  (pid 8272)
+  Rendered layouts/partials/_footer.html.haml (2.6ms)
+Completed 200 OK in 215ms (Views: 214.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-01 13:04:52 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-01 13:04:52 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/administrador/administrador/create" for 127.0.0.1 at 2013-09-01 13:04:55 -0300
+
+ActionController::RoutingError (No route matches [POST] "/administrador/administrador/create"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:05:10 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.9ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (27.8ms)
+Compiled site/personal.css  (690ms)  (pid 8272)
+Compiled site/nivo-slider.css  (0ms)  (pid 8272)
+Compiled site/jquery-1.9.0.min.js  (1ms)  (pid 8272)
+Compiled site/site.js  (0ms)  (pid 8272)
+Compiled site/jquery.nivo.slider.js  (1ms)  (pid 8272)
+Compiled site/home.js  (0ms)  (pid 8272)
+  Rendered layouts/partials/site/_header.html.haml (23.5ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 1166ms (Views: 1064.5ms | ActiveRecord: 43.1ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:05:12 -0300
+Served asset /site/reset.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:05:12 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:05:12 -0300
+Served asset /site/personal.css - 200 OK (5ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:05:12 -0300
+Served asset /site/site.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:05:12 -0300
+Served asset /analytics.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:05:12 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (114ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:05:12 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:05:12 -0300
+Served asset /site/home.js - 304 Not Modified (2ms)
+
+
+Started GET "/administrador/" for 127.0.0.1 at 2013-09-01 13:05:16 -0300
+Processing by Administrador::AdminSessionController#new as HTML
+  Rendered administrador/admin_session/new.html.haml within layouts/masters/login (3.4ms)
+  Rendered layouts/partials/_footer.html.haml (0.5ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-01 13:05:16 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-01 13:05:16 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started POST "/administrador/administrador/create" for 127.0.0.1 at 2013-09-01 13:05:18 -0300
+
+ActionController::RoutingError (No route matches [POST] "/administrador/administrador/create"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/administrador/" for 127.0.0.1 at 2013-09-01 13:06:57 -0300
+Connecting to database specified by database.yml
+Processing by Administrador::AdminSessionController#new as HTML
+  Rendered administrador/admin_session/new.html.haml within layouts/masters/login (9.3ms)
+  Rendered layouts/partials/_footer.html.haml (3.2ms)
+Completed 200 OK in 219ms (Views: 217.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-01 13:07:00 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-01 13:07:00 -0300
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started POST "/administrador/administrador/create" for 127.0.0.1 at 2013-09-01 13:07:04 -0300
+
+ActionController::RoutingError (No route matches [POST] "/administrador/administrador/create"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+Connecting to database specified by database.yml
+  [1m[36m (74.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (52.2ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'schema_migrations'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36m (26.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (1.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateAdmins (20120629231059)
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (76.7ms)[0m  CREATE TABLE "admins" ("id" serial primary key, "name" character varying(255), "email" character varying(255), "password_digest" character varying(255), "admin_level" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (15.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120629231059')[0m
+  [1m[35m (6.1ms)[0m  COMMIT
+Migrating to CreateAdminSessions (20120722140205)
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (20.1ms)[0m  CREATE TABLE "admin_sessions" ("id" serial primary key, "id_session_hash" character varying(255), "id_admin" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120722140205')[0m
+  [1m[35m (3.9ms)[0m  COMMIT
+Migrating to CreatePersonals (20120823015822)
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35m (23.8ms)[0m  CREATE TABLE "personals" ("id" serial primary key, "name" character varying(255), "email" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (3.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120823015822')[0m
+  [1m[35m (4.8ms)[0m  COMMIT
+Migrating to AddAdminPadrao (20121022013150)
+  [1m[36m (1.5ms)[0m  [1mBEGIN[0m
+  [1m[35mAdmin Exists (2.6ms)[0m  SELECT 1 AS one FROM "admins" WHERE LOWER("admins"."email") = LOWER('cardosounicamp@gmail.com') LIMIT 1
+  [1m[36mSQL (95.6ms)[0m  [1mINSERT INTO "admins" ("admin_level", "created_at", "email", "name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["admin_level", "1"], ["created_at", Sun, 01 Sep 2013 13:08:40 BRT -03:00], ["email", "cardosounicamp@gmail.com"], ["name", "Marcos Vinicius Cardoso Santini"], ["password_digest", "$2a$10$vqcuZoVU41caoZQGTiYbnupOzFkMY7kv1O8nlUFykrnLKegU01/z."], ["updated_at", Sun, 01 Sep 2013 13:08:40 BRT -03:00]]
+  [1m[35m (1.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121022013150')
+  [1m[36m (5.0ms)[0m  [1mCOMMIT[0m
+Migrating to CreateFamilies (20130303210958)
+  [1m[35m (1.5ms)[0m  BEGIN
+  [1m[36m (14.2ms)[0m  [1mCREATE TABLE "families" ("id" serial primary key, "name" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130303210958')
+  [1m[36m (3.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMembers (20130303222252)
+  [1m[35m (1.2ms)[0m  BEGIN
+  [1m[36m (12.4ms)[0m  [1mCREATE TABLE "members" ("id" serial primary key, "name" character varying(255), "family_id" integer, "confirmado" boolean DEFAULT 'f', "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130303222252')
+  [1m[36m (4.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateFollowers (20130309122343)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (27.0ms)[0m  [1mCREATE TABLE "followers" ("id" serial primary key, "name" character varying(255), "family_id" integer, "description" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130309122343')
+  [1m[36m (6.0ms)[0m  [1mCOMMIT[0m
+Migrating to CreateContatos (20130310173321)
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36m (19.7ms)[0m  [1mCREATE TABLE "contatos" ("id" serial primary key, "name" character varying(255), "email" character varying(255), "text" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130310173321')
+  [1m[36m (4.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateHomemessages (20130311143913)
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36m (25.4ms)[0m  [1mCREATE TABLE "homemessages" ("id" serial primary key, "name" character varying(255), "message" character varying(255), "approved" boolean DEFAULT 'f', "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130311143913')
+  [1m[36m (6.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateFees (20130315101903)
+  [1m[35m (0.9ms)[0m  BEGIN
+  [1m[36m (14.4ms)[0m  [1mCREATE TABLE "fees" ("id" serial primary key, "value" integer, "outros" character varying(255), "name" character varying(255), "email" character varying(255), "message" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130315101903')
+  [1m[36m (3.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddConfirmDepositToFee (20130316104202)
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36m (35.5ms)[0m  [1mALTER TABLE "fees" ADD COLUMN "confirm_deposit" boolean DEFAULT 'f'[0m
+  [1m[35m (1.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130316104202')
+  [1m[36m (5.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36mPK and serial sequence (14.5ms)[0m  [1m SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"admin_sessions"'::regclass
+[0m
+  [1m[35m (6.0ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'admin_sessions'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36mPK and serial sequence (4.6ms)[0m  [1m SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"admins"'::regclass
+[0m
+  [1m[35m (3.4ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'admins'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36mPK and serial sequence (4.8ms)[0m  [1m SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"contatos"'::regclass
+[0m
+  [1m[35m (3.3ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'contatos'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36mPK and serial sequence (5.7ms)[0m  [1m SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"families"'::regclass
+[0m
+  [1m[35m (3.2ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'families'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36mPK and serial sequence (5.0ms)[0m  [1m SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"fees"'::regclass
+[0m
+  [1m[35m (3.3ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'fees'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36mPK and serial sequence (4.8ms)[0m  [1m SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"followers"'::regclass
+[0m
+  [1m[35m (3.3ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'followers'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36mPK and serial sequence (3.3ms)[0m  [1m SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"homemessages"'::regclass
+[0m
+  [1m[35m (2.1ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'homemessages'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36mPK and serial sequence (3.8ms)[0m  [1m SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"members"'::regclass
+[0m
+  [1m[35m (2.1ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'members'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36mPK and serial sequence (3.2ms)[0m  [1m SELECT attr.attname, seq.relname
+ FROM pg_class seq,
+ pg_attribute attr,
+ pg_depend dep,
+ pg_namespace name,
+ pg_constraint cons
+ WHERE seq.oid = dep.objid
+ AND seq.relkind = 'S'
+ AND attr.attrelid = dep.refobjid
+ AND attr.attnum = dep.refobjsubid
+ AND attr.attrelid = cons.conrelid
+ AND attr.attnum = cons.conkey[1]
+ AND cons.contype = 'p'
+ AND dep.refobjid = '"personals"'::regclass
+[0m
+  [1m[35m (1.6ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'personals'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:19:04 -0300
+Connecting to database specified by database.yml
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (17.7ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (139.0ms)
+Compiled site/reset.css  (63ms)  (pid 9279)
+Compiled analytics.js  (0ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (28.1ms)
+  Rendered layouts/partials/site/_footer.html.haml (2.6ms)
+Completed 200 OK in 706ms (Views: 559.7ms | ActiveRecord: 38.5ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:19:07 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:19:07 -0300
+Served asset /site/site.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:19:07 -0300
+Served asset /site/reset.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:19:07 -0300
+Served asset /site/personal.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:19:07 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:19:07 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:19:07 -0300
+Served asset /site/home.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:19:07 -0300
+Served asset /analytics.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:25:57 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.4ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (99.0ms)
+Completed 500 Internal Server Error in 623ms
+
+ActionView::Template::Error (Invalid CSS after "  width": expected ";", was ": 100px;"
+  (in /home/marconi/Projetos/Casamento/app/assets/stylesheets/site/personal.css.scss)):
+    4:     %title Bem vindo ao Casamento de Marcos e Taísa
+    5:     = #stylesheet_link_tag 'site/jquery.fancybox'
+    6:     = stylesheet_link_tag 'site/reset'
+    7:     = stylesheet_link_tag 'site/personal'
+    8:     = stylesheet_link_tag 'site/nivo-slider'
+    9:     = #javascript_include_tag 'jquery' 
+    10:     = javascript_include_tag 'site/jquery-1.9.0.min'
+  app/assets/stylesheets/site/personal.css.scss:1206
+  app/views/layouts/masters/site.html.haml:7:in `_app_views_layouts_masters_site_html_haml__1440082035263949025_16486780'
+  app/controllers/site/page_controller.rb:10:in `index'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:26:10 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.1ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (29.5ms)
+Completed 500 Internal Server Error in 459ms
+
+ActionView::Template::Error (Invalid CSS after "  width": expected ";", was ": 100px;"
+  (in /home/marconi/Projetos/Casamento/app/assets/stylesheets/site/personal.css.scss)):
+    4:     %title Bem vindo ao Casamento de Marcos e Taísa
+    5:     = #stylesheet_link_tag 'site/jquery.fancybox'
+    6:     = stylesheet_link_tag 'site/reset'
+    7:     = stylesheet_link_tag 'site/personal'
+    8:     = stylesheet_link_tag 'site/nivo-slider'
+    9:     = #javascript_include_tag 'jquery' 
+    10:     = javascript_include_tag 'site/jquery-1.9.0.min'
+  app/assets/stylesheets/site/personal.css.scss:1206
+  app/views/layouts/masters/site.html.haml:7:in `_app_views_layouts_masters_site_html_haml__1440082035263949025_16486780'
+  app/controllers/site/page_controller.rb:10:in `index'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:26:18 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.4ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (27.4ms)
+Completed 500 Internal Server Error in 454ms
+
+ActionView::Template::Error (Invalid CSS after "  width": expected ";", was ": 100px;"
+  (in /home/marconi/Projetos/Casamento/app/assets/stylesheets/site/personal.css.scss)):
+    4:     %title Bem vindo ao Casamento de Marcos e Taísa
+    5:     = #stylesheet_link_tag 'site/jquery.fancybox'
+    6:     = stylesheet_link_tag 'site/reset'
+    7:     = stylesheet_link_tag 'site/personal'
+    8:     = stylesheet_link_tag 'site/nivo-slider'
+    9:     = #javascript_include_tag 'jquery' 
+    10:     = javascript_include_tag 'site/jquery-1.9.0.min'
+  app/assets/stylesheets/site/personal.css.scss:1206
+  app/views/layouts/masters/site.html.haml:7:in `_app_views_layouts_masters_site_html_haml__1440082035263949025_16486780'
+  app/controllers/site/page_controller.rb:10:in `index'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:26:28 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.9ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (9.3ms)
+Compiled site/personal.css  (577ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (6.2ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 642ms (Views: 635.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:26:29 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:26:29 -0300
+Served asset /site/personal.css - 200 OK (5ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:26:29 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:26:29 -0300
+Served asset /site/reset.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:26:29 -0300
+Served asset /site/site.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:26:29 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:26:29 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:26:29 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:26:33 -0300
+Served asset /site/jquery.min.map - 404 Not Found (29ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:28:33 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.3ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (10.3ms)
+Compiled site/personal.css  (583ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (7.2ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 653ms (Views: 647.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:28:34 -0300
+Served asset /site/reset.css - 304 Not Modified (91ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:28:34 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:28:34 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:28:34 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:28:34 -0300
+Served asset /site/personal.css - 200 OK (5ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:28:34 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:28:34 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:28:34 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:28:34 -0300
+Served asset /site/jquery.min.map - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:29:43 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.6ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (11.3ms)
+Compiled site/personal.css  (601ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (78.3ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 744ms (Views: 739.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:29:44 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:29:44 -0300
+Served asset /site/personal.css - 200 OK (22ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:29:44 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:29:44 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:29:44 -0300
+Served asset /site/site.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:29:44 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:29:44 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:29:44 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:29:44 -0300
+Served asset /site/jquery.min.map - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:31:13 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.1ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (10.6ms)
+Compiled site/personal.css  (645ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (6.3ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 789ms (Views: 784.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:31:14 -0300
+Served asset /site/reset.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:31:14 -0300
+Served asset /site/personal.css - 200 OK (4ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:14 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:14 -0300
+Served asset /site/site.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:14 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:31:14 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:14 -0300
+Served asset /site/home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:14 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:31:14 -0300
+Served asset /site/jquery.min.map - 404 Not Found (12ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/images/chat-bubble.png" for 127.0.0.1 at 2013-09-01 13:31:15 -0300
+Served asset /images/chat-bubble.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/chat-bubble.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:31:42 -0300
+Served asset /site/jquery.min.map - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:31:57 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.3ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (15.2ms)
+Compiled site/personal.css  (685ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (7.2ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.6ms)
+Completed 200 OK in 764ms (Views: 758.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:31:58 -0300
+Served asset /site/personal.css - 200 OK (30ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:31:58 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:58 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:31:58 -0300
+Served asset /site/reset.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:58 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:58 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:58 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:31:58 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:31:59 -0300
+Served asset /site/jquery.min.map - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/assets/images/site/chat-bubble.png" for 127.0.0.1 at 2013-09-01 13:31:59 -0300
+Served asset /images/site/chat-bubble.png - 404 Not Found (128ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/site/chat-bubble.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:32:24 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.2ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (9.6ms)
+Compiled site/personal.css  (570ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (7.3ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 633ms (Views: 629.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /site/personal.css - 200 OK (3ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /site/reset.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /site/jquery.min.map - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/assets/site/chat-bubble.png" for 127.0.0.1 at 2013-09-01 13:32:25 -0300
+Served asset /site/chat-bubble.png - 200 OK (108ms)
+
+
+Started GET "/assets/site/chat-bubble.png" for 127.0.0.1 at 2013-09-01 13:35:22 -0300
+Served asset /site/chat-bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:35:59 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.2ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (8.5ms)
+Compiled site/personal.css  (675ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (8.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.4ms)
+Completed 200 OK in 750ms (Views: 742.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:36:00 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:36:00 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:36:00 -0300
+Served asset /site/reset.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:36:00 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:36:00 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:36:00 -0300
+Served asset /site/personal.css - 200 OK (4ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:36:00 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:36:00 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:36:00 -0300
+Served asset /site/jquery.min.map - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:01 -0300
+Served asset /site/bubble.png - 200 OK (81ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:11 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:12 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:12 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:12 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:17 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:19 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:19 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:20 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:20 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:20 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:20 -0300
+Served asset /site/bubble.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:21 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:21 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:22 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:23 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:24 -0300
+Served asset /site/bubble.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:31 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:31 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:35 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:39 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:40 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:40 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:40 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:42 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:44 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:44 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:44 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:36:48 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:37:04 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.3ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (10.8ms)
+Compiled site/personal.css  (669ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (6.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 734ms (Views: 728.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /site/reset.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /site/personal.css - 200 OK (4ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /site/home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /analytics.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /site/jquery.min.map - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:05 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:18 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:18 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:18 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:18 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:20 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:26 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:27 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:27 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:27 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:29 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:29 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:29 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:30 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:30 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:31 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:31 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:32 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:37:35 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:38:15 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (2.0ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (31.1ms)
+Compiled site/personal.css  (597ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (7.2ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 686ms (Views: 681.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:38:16 -0300
+Served asset /site/personal.css - 200 OK (21ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:16 -0300
+Served asset /site/site.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:16 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:16 -0300
+Served asset /analytics.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:16 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:38:16 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:16 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:38:16 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:38:17 -0300
+Served asset /site/jquery.min.map - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:38:17 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:38:29 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.4ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (10.3ms)
+Compiled site/personal.css  (582ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (5.4ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 643ms (Views: 638.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /site/reset.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /site/personal.css - 200 OK (14ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /site/home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /site/jquery.min.map - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:38:30 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.1ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (10.7ms)
+Compiled site/home.js  (0ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (5.8ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 211ms (Views: 206.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Served asset /site/home.js - 200 OK (4ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:40:27 -0300
+Served asset /site/jquery.min.map - 404 Not Found (110ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:40:28 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:41:13 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (17.4ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (99.9ms)
+  Rendered layouts/partials/site/_header.html.haml (22.7ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 362ms (Views: 334.3ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:41:14 -0300
+Served asset /site/reset.css - 200 OK (2ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:14 -0300
+Served asset /site/site.js - 200 OK (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:14 -0300
+Served asset /site/home.js - 200 OK (47ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:14 -0300
+Served asset /site/jquery.nivo.slider.js - 200 OK (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:41:14 -0300
+Served asset /site/personal.css - 200 OK (34ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:14 -0300
+Served asset /site/jquery-1.9.0.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:41:14 -0300
+Served asset /site/nivo-slider.css - 200 OK (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:14 -0300
+Served asset /analytics.js - 200 OK (35ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:41:16 -0300
+Served asset /site/bubble.png - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.8ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (10.5ms)
+  Rendered layouts/partials/site/_header.html.haml (4.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 51ms (Views: 45.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Served asset /site/reset.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Served asset /site/personal.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Served asset /site/home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:41:19 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:41:59 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.3ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (14.9ms)
+Compiled site/home.js  (1ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (9.7ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 594ms (Views: 588.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:42:01 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:01 -0300
+Served asset /site/home.js - 200 OK (7ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:01 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:01 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:42:01 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:01 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:01 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:42:01 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:42:01 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:42:02 -0300
+Served asset /site/jquery.min.map - 404 Not Found (290ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (143.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:42:25 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.5ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (11.6ms)
+Compiled site/home.js  (0ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (7.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 174ms (Views: 169.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /site/personal.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /site/home.js - 200 OK (6ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /site/jquery.min.map - 404 Not Found (49ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:42:26 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:44:06 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.6ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (9.8ms)
+Compiled site/personal.css  (1043ms)  (pid 9279)
+Compiled site/home.js  (0ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (8.3ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 1549ms (Views: 1543.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:08 -0300
+Served asset /site/reset.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:08 -0300
+Served asset /site/personal.css - 200 OK (85ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:08 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:08 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:08 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:08 -0300
+Served asset /site/home.js - 200 OK (3ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:08 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:08 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:44:08 -0300
+Served asset /site/bubble.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:44:13 -0300
+Served asset /site/jquery.min.map - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:44:14 -0300
+Served asset /site/jquery.min.map - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:44:39 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (2.9ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (11.8ms)
+Compiled site/home.js  (1ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (8.2ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.4ms)
+Completed 200 OK in 96ms (Views: 90.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:40 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:40 -0300
+Served asset /site/personal.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:40 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:40 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:40 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:40 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:40 -0300
+Served asset /site/home.js - 200 OK (14ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:40 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:44:40 -0300
+Served asset /site/jquery.min.map - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:44:44 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.4ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (19.2ms)
+  Rendered layouts/partials/site/_header.html.haml (6.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 73ms (Views: 67.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:44 -0300
+Served asset /site/reset.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:44 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:44 -0300
+Served asset /site/site.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:44 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:44 -0300
+Served asset /site/personal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:44 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:44 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:44 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/contato" for 127.0.0.1 at 2013-09-01 13:44:54 -0300
+Processing by Site::ContatoController#index as HTML
+  Rendered site/contato/index.html.haml within layouts/masters/internal (17.9ms)
+Compiled site/internas.js  (0ms)  (pid 9279)
+  Rendered layouts/partials/site/_header.html.haml (6.6ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 597ms (Views: 480.5ms | ActiveRecord: 97.9ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:55 -0300
+Served asset /site/reset.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:55 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:55 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:55 -0300
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:55 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:55 -0300
+Served asset /site/internas.js - 304 Not Modified (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:44:57 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.2ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (10.9ms)
+  Rendered layouts/partials/site/_header.html.haml (5.5ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 46ms (Views: 40.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:57 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:57 -0300
+Served asset /site/site.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:57 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:58 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:58 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:58 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:44:58 -0300
+Served asset /site/personal.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:44:58 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:52:03 -0300
+Connecting to database specified by database.yml
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.5ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (141.6ms)
+Compiled site/home.js  (1ms)  (pid 10710)
+  Rendered layouts/partials/site/_header.html.haml (16.7ms)
+  Rendered layouts/partials/site/_footer.html.haml (2.6ms)
+Completed 200 OK in 976ms (Views: 881.7ms | ActiveRecord: 40.3ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:07 -0300
+Served asset /site/reset.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:07 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:07 -0300
+Served asset /site/personal.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:07 -0300
+Served asset /site/site.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:07 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:07 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:07 -0300
+Served asset /site/home.js - 200 OK (4ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:07 -0300
+Served asset /analytics.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/bubble.png" for 127.0.0.1 at 2013-09-01 13:52:07 -0300
+Served asset /site/bubble.png - 304 Not Modified (71ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:52:08 -0300
+Served asset /site/jquery.min.map - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.5ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (11.9ms)
+  Rendered layouts/partials/site/_header.html.haml (6.1ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.4ms)
+Completed 200 OK in 97ms (Views: 52.1ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Served asset /site/site.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Served asset /analytics.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/jquery.min.map" for 127.0.0.1 at 2013-09-01 13:52:26 -0300
+Served asset /site/jquery.min.map - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/site/jquery.min.map"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/marconi/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:52:36 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.3ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (12.6ms)
+  Rendered layouts/partials/site/_header.html.haml (5.3ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 56ms (Views: 51.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:37 -0300
+Served asset /site/reset.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:37 -0300
+Served asset /site/personal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:37 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:37 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:37 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:37 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:37 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:37 -0300
+Served asset /analytics.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:52:43 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.2ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (14.6ms)
+  Rendered layouts/partials/site/_header.html.haml (6.6ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 156ms (Views: 146.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:44 -0300
+Served asset /site/site.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:44 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:44 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:44 -0300
+Served asset /site/personal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:44 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:44 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:44 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:44 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:52:46 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (1.4ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (12.8ms)
+  Rendered layouts/partials/site/_header.html.haml (5.5ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 53ms (Views: 46.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:46 -0300
+Served asset /site/reset.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:46 -0300
+Served asset /site/personal.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:52:46 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:46 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:46 -0300
+Served asset /site/site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:46 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:46 -0300
+Served asset /site/home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:52:46 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-01 13:54:14 -0300
+Processing by Site::PageController#index as HTML
+  [1m[35mHomemessage Load (1.4ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2
+  Rendered site/page/index.html.haml within layouts/masters/site (13.1ms)
+Compiled site/home.js  (1ms)  (pid 10710)
+  Rendered layouts/partials/site/_header.html.haml (6.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 75ms (Views: 68.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-09-01 13:54:14 -0300
+Served asset /site/site.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-01 13:54:14 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-01 13:54:14 -0300
+Served asset /site/personal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-09-01 13:54:14 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-09-01 13:54:14 -0300
+Served asset /site/home.js - 200 OK (11ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-09-01 13:54:14 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-01 13:54:14 -0300
+Served asset /analytics.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-09-01 13:54:14 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (0ms)

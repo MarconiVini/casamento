@@ -1,4 +1,10 @@
 $(document).ready(function() {
+	var balloon = $(".balloon");
+
+	if(balloon.length > 0){
+		balloon.fadeIn(2000).delay(5000).fadeOut(6000);
+	}
+
 	$('.PhotoEffect').each(function() {
 		$(this).find("li").hide().first().addClass("actual").fadeIn();
 		function call() {
@@ -44,9 +50,9 @@ $(document).ready(function() {
 	$('.albummenu').on('mouseleave', function(){
 		$(this).find('ul').stop(true).slideToggle();
 	});
-	//$('.main-menu').find('li:eq(1)').on('click', function(){
-	//    alert('Você poderá confirmar sua presença assim que enviarmos o convite para os convidados !');
-	//});
+	$('.main-menu').find('li:eq(1)').on('click', function(){
+	    alert('Você poderá confirmar sua presença assim que enviarmos o convite para os convidados !');
+	});
 });
 
 
