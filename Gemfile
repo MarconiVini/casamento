@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 ruby "1.9.3"
 
 gem 'rails', '3.2.8'
-#gem 'bcrypt-ruby', '3.1.2', :require =>  'bcrypt'
+gem 'bcrypt-ruby'#, :require =>  'bcrypt'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -44,7 +44,7 @@ group :test do
   gem 'spork', '0.9.0'
 end
 
-gem 'will_paginate', '~> 3.0'
+#gem 'will_paginate', '~> 3.0'
 gem 'dynamic_form'
 gem 'haml'
 gem 'mercury-rails'
