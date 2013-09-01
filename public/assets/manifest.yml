@@ -340,7 +340,7 @@ tray-logout.gif: tray-logout-1c35d66536f29e20f631656e9cdd0302.gif
 tray.gif: tray-2200da46d9f2da08b51343712c2e7f38.gif
 ul-ul.gif: ul-ul-f1ec874b7b417de3fd2dedd6e016e125.gif
 ul.gif: ul-ed782764319fe75113966873912158aa.gif
-application.js: application-e89132a4ba04c454952ecef41ce7deca.js
+application.js: application-db067465eaaa707f3729b82b7cc4d7ba.js
 application.css: application-6ad77782e70274d31414c7aa3c0532ad.css
 MonotypeCorsiva.eot: MonotypeCorsiva-ec31c143c448402fa7be84b212a20b0b.eot
 MonotypeCorsiva.otf: MonotypeCorsiva-821172978e8c9648520b3968eb62ea32.otf
@@ -374,5 +374,5 @@ mercury/toolbar/primary/tools.png: mercury/toolbar/primary/tools-4b7f314d387e9ce
 mercury/toolbar/primary/undo.png: mercury/toolbar/primary/undo-198778b2ef78a08960304c9489fc37c3.png
 mercury/toolbar/primary/user.png: mercury/toolbar/primary/user-bd7bd3279893e7c68fb6077d317ff4a2.png
 mercury/toolbar/snippets/buttons.png: mercury/toolbar/snippets/buttons-1332f1dd5f0a4737cbaac7553128ae91.png
-mercury.js: mercury-bd7b1086dc7223afae520eaac3fe12da.js
-mercury.css: mercury-13f43eb301186390297074be0dd36b3a.css
+mercury.js: mercury-9a3b819fc1c1916eea3667aefd7078be.js
+mercury.css: mercury-0d1830b020d14248eab632ff2f6974ba.css

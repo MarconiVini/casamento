@@ -18,6 +18,15 @@
     -site_main_menu.each do |item|
       =item.html_safe
     %li.albummenu{style: "position:relative"}
+      =link_to "Dicas", "#", class: "albumlink"
+      %ul
+        %li
+          =link_to "Trajes Madrinhas", "#{root_path}dicas/trajes-madrinhas"
+        %li
+          =link_to "Trajes Padrinhos", "#{root_path}dicas/trajes-padrinhos"
+        %li
+          =link_to "Para as Solteiras", "#{root_path}dicas/solteironas"
+    %li.albummenu{style: "position:relative"}
       =link_to "Álbum", "#", class: "albumlink"
       %ul
         %li

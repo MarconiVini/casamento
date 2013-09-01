@@ -29,6 +29,7 @@ group :development, :test do
   gem 'rspec-rails', '2.10.0'
   gem 'guard-rspec', '0.5.5'
   gem 'annotate', '2.5.0'
+  gem 'railroady'
 end
 
 group :test do
@@ -41,8 +42,10 @@ group :test do
   gem 'spork', '0.9.0'
 end
 
+gem 'will_paginate', '~> 3.0'
 gem 'dynamic_form'
 gem 'haml'
 gem 'mercury-rails'
+gem 'therubyracer', require: "v8"
 
 gem 'paperclip'

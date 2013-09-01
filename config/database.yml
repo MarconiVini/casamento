@@ -9,7 +9,7 @@ development:
   database: casamento
   host: localhost
   pool: 5
-  username: marcos
+  username: marconi
   password: qazsedrf
 
 # Warning: The database defined as "test" will be erased and
@@ -21,7 +21,7 @@ test:
   database: casamento
   host: localhost
   pool: 5
-  username: marcos
+  username: marconi
   password: qazsedrf
 
 production:
@@ -30,5 +30,5 @@ production:
   database: casamento
   host: localhost
   pool: 5
-  username: marcos
+  username: marconi
   password: qazsedrf

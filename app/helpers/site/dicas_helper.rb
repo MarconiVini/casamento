@@ -1,0 +1,2 @@
+module Site::DicasHelper
+end

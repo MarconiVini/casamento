@@ -23,14 +23,14 @@
             %td.confirmado
               Presença confirmada
             %td
-              =link_to "Cancelar Presença", family_path(m.parametrize_name), class: "confirm-link cancel" 
+              =link_to "Cancelar Presença", family_path(m.name), class: "confirm-link cancel" 
           -else
             %td.naoconfirmado
               =m.name
             %td.naoconfirmado
               Ainda não confirmada
             %td
-              =link_to "Confirmar Presença", family_path(m.parametrize_name), class: "confirm-link"   
+              =link_to "Confirmar Presença", family_path(m.name), class: "confirm-link"   
   
   %br
   %br

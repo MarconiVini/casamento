@@ -16,10 +16,18 @@ PersonalTrainer::Application.routes.draw do
     match "fee/reprovar/:id" => 'fee#reprovar'
     
     match "homemessage" => 'homemessage#index'
+    match "homemessage/delete" => 'homemessage#destroy'
     match "homemessage/aprovar/:id" => 'homemessage#aprovar'
     match "homemessage/reprovar/:id" => 'homemessage#reprovar'
     
   end
+
+
+  get 'dicas/trajes-madrinhas', to: 'site/dicas#madrinhas'   
+  get 'dicas/trajes-padrinhos', to: 'site/dicas#padrinhos'  
+  get 'dicas/solteironas',        to: 'site/dicas#solteiras'  
+
+
   match "album/:page_num" => 'site/page#album', as: :album
   #Confirmar presença
   match "confirme-sua-presenca" => 'site/presence#index', via: :get, as: :presence

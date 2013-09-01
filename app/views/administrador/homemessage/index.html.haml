@@ -12,7 +12,7 @@
     %th
       Aprovar?
     %th
-    %th
+      Deletar permanentemente
   -@homemessages.each do |msg|
     %tr
       %td
@@ -29,7 +29,11 @@
           = link_to 'Reprovar', "homemessage/reprovar/#{msg.id}"
         -else
           = link_to 'Aprovar', "homemessage/aprovar/#{msg.id}"       
-      %td
-        = link_to 'Deletar', administrador_homemessage_path(msg), method: :delete, data: { confirm: "Esta certo que quer deletar esta mensagem ?" }
+      %td{style: "text-align:center;"}
+        =button_to "Delete", {controller: "homemessage", action: "destroy", id: msg.id}, data: { confirm: "Está certo que quer deletar esta mensagem??" }
+        -#form_tag(controller: "homemessage", action: "destroy")
+          =#button
+
+        =# link_to 'Deletar', administrador_homemessage_path(msg), method: :delete, data: { confirm: "Esta certo que quer deletar esta mensagem ?" }
 %br
 = #link_to 'Nova Familia', new_administrador_homemessage_path

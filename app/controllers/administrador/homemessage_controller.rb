@@ -21,8 +21,8 @@ class Administrador::HomemessageController < ApplicationController
   end
   
   def destroy
-    @family = Family.find(params[:id])
-    if @family.destroy
+    @homemessage = Homemessage.find(params[:id])
+    if @homemessage.destroy
       redirect_to action: :index
     end
   end

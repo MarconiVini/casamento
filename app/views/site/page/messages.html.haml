@@ -5,11 +5,15 @@
     -if @mensages.nil?
       Nenhuma mensagem Encontrada
     -else
-      -@mensages.each do |m|
-        %h4
-          =m.name
-        %p
-          =m.message
-          %span.data
-            Enviado há
-            =distance_of_time_in_words(m.created_at, Time.now, true)  
+      %ul
+        -@mensages.each do |m|
+          %li
+            %h4
+              =m.name
+            %p
+              =m.message
+              %span.data
+                Enviado há
+                =distance_of_time_in_words(m.created_at, Time.now, true)  
+
+      =will_paginate @mensages, previous_label: "Anterior", next_label: "Próximo", class: "apple_pagination"
