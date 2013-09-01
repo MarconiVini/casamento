@@ -44,7 +44,7 @@ group :test do
   gem 'spork', '0.9.0'
 end
 
-#gem 'will_paginate', '~> 3.0'
+gem 'will_paginate', '~> 3.0'
 gem 'dynamic_form'
 gem 'haml'
 gem 'mercury-rails'
