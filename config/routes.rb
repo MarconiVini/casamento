@@ -11,6 +11,10 @@ PersonalTrainer::Application.routes.draw do
     resources :families
     resources :members
     resources :contato
+    resources :acompanhante
+
+    match "listagem" => "listing#index", via: :get, as: :listing
+
     match "fee" => 'fee#index'
     match "fee/aprovar/:id" => 'fee#aprovar'
     match "fee/reprovar/:id" => 'fee#reprovar'

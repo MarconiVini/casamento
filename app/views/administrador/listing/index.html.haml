@@ -1,0 +1,41 @@
+-require "i18n"
+:css
+	h1{
+		font-size: 30px;
+	}
+	.Main{
+		width: 1024px;
+		margin: 0 auto;
+	}
+	table{
+		width: 100%;
+		border-collapse:collapse;
+	}
+	table td{
+		border: 1px solid #000;
+	}
+
+.Main
+	%h1
+		Pessoas Confirmadas para o Casamento
+
+	%table{cellspacing: "0", cellpadding: "0"}
+		-@u.each do |p|
+			-a = I18n.transliterate(p.name[0])
+			-if a == @bag
+				%tr
+					%td
+						=p.name
+					%td{style: "width: 50px;"}
+			-else
+				%tr
+					%td{style: "font-size: 20px; font-weight:bold; border: none", colspan: 2}
+						=p.name[0]	
+				%tr
+					%td
+						=p.name
+					%td{style: "width: 50px;"}
+			-@bag = I18n.transliterate(a)
+		
+
+		

@@ -380,6 +380,9 @@ MESSAGES
 }
 
 
+#content table .NaoConfirmado td{
+	display: none;
+}
 
 
 

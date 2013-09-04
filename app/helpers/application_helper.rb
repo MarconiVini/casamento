@@ -8,6 +8,8 @@ module ApplicationHelper
       "Visualizar Membros" => administrador_members_path,
       "Visualizar Mensagens" => administrador_contato_index_path,
       "Mensagens Home" => administrador_homemessage_path,
+      "Lista de Confirmação" => administrador_listing_path,
+      "Acompanhantes" => administrador_acompanhante_index_path,
       "Depósitos" => administrador_fee_path
     }
     pages.map do |key, value|

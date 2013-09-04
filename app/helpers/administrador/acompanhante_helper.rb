@@ -1,0 +1,2 @@
+module Administrador::AcompanhanteHelper
+end

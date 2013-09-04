@@ -1,5 +1,55 @@
+:css
+  #content table .NaoConfirmado td{
+    background: #ffd1d1;
+  }
+
+  #content table .Confirmado td{
+   background: #b2ffc0; 
+  }
+
+  .SeachBar{
+    background: #bad9ff;
+    float:left;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+  }
+
+  .SeachBar input{
+    border: 1px solid #474747;
+    padding: 2px 5px;
+  }
+
+
+:javascript
+  jQuery.expr[":"].Contains = jQuery.expr.createPseudo(function(arg) {
+    return function( elem ) {
+          return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+      };
+  });
+  $(function(){
+    $(".Search").on("keyup", search);
+
+    function search(){
+      var search = $(this).val();
+      if(search == ""){
+        $("table .Name").parent().fadeIn();
+      }else{
+        $("table .Name").parent().hide();
+        $("table .Name:contains("+search+")").parent().fadeIn();
+      }   
+    }
+  });
+
 %h1
   Listando Membros
+
+.SeachBar
+  %label
+    Filtro de Busca
+  %br
+  %input.Search
+
+%div{style: "clear:both;"}
 
 %table
   %tr
@@ -10,14 +60,25 @@
     %th
     %th
   -@membros.each do |member|
-    %tr
-      %td
-        = member.name
-      %td
-        = member.family.name
-      %td
-        = link_to 'Editar', edit_administrador_member_path(member)
-      %td
-        = button_to 'Deletar', administrador_member_path(member), method: :delete, data: { confirm: "Esta certo que quer deletar o member #{member.name} ?" }
+    -if member.confirmado
+      %tr.Confirmado
+        %td.Name
+          = member.name
+        %td
+          = member.family.name
+        %td
+          = link_to 'Editar', edit_administrador_member_path(member)
+        %td
+          = button_to 'Deletar', administrador_member_path(member), method: :delete, data: { confirm: "Esta certo que quer deletar o member #{member.name} ?" }
+    -else
+      %tr.NaoConfirmado  
+        %td.Name
+          = member.name
+        %td
+          = member.family.name
+        %td
+          = link_to 'Editar', edit_administrador_member_path(member)
+        %td
+          = button_to 'Deletar', administrador_member_path(member), method: :delete, data: { confirm: "Esta certo que quer deletar o member #{member.name} ?" }
 %br
 = link_to 'Novo Membro', new_administrador_member_path
