@@ -4,7 +4,7 @@ class Administrador::ListingController < ApplicationController
 	#layout "masters/administrador"
 	
 	def index
-		@u = Member.order("name ASC")
+		@u = Member.order("name ASC").where(confirmado: true)
 
 	end
 

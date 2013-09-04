@@ -53796,3 +53796,254 @@ Served asset /jquery.js - 304 Not Modified (20ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 07:55:33 -0300
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador/members" for 127.0.0.1 at 2013-09-04 08:02:18 -0300
+Processing by Administrador::MembersController#index as HTML
+  [1m[36mAdmin Load (0.8ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mMember Load (2.3ms)[0m  SELECT "members".* FROM "members" 
+  [1m[36mFamily Load (1.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1[0m
+  [1m[35mFamily Load (1.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 19 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 19 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 19 LIMIT 1
+  [1m[36mFamily Load (1.2ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 20 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 20 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 20 LIMIT 1
+  [1m[36mFamily Load (1.4ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 21 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 21 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 21 LIMIT 1[0m
+  [1m[35mFamily Load (1.4ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 22 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 22 LIMIT 1[0m
+  [1m[35mFamily Load (1.4ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 23 LIMIT 1
+  [1m[36mFamily Load (1.2ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 24 LIMIT 1[0m
+  [1m[35mFamily Load (1.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 25 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 25 LIMIT 1[0m
+  [1m[35mFamily Load (1.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 26 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 26 LIMIT 1[0m
+  [1m[35mFamily Load (1.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 27 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 27 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 27 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 27 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 27 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 27 LIMIT 1[0m
+  [1m[35mFamily Load (1.5ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 28 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 28 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 28 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 28 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 28 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 28 LIMIT 1[0m
+  [1m[35mFamily Load (1.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 29 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 29 LIMIT 1[0m
+  [1m[35mFamily Load (1.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 30 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 30 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 30 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 30 LIMIT 1[0m
+  [1m[35mFamily Load (1.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 31 LIMIT 1
+  [1m[36mFamily Load (1.2ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 32 LIMIT 1[0m
+  [1m[35mFamily Load (1.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 33 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 33 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 33 LIMIT 1
+  [1m[36mFamily Load (1.2ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mFamily Load (1.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 35 LIMIT 1
+  [1m[36mFamily Load (1.3ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 36 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 36 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 37 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 37 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 38 LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 38 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 39 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 39 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 40 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 40 LIMIT 1
+  [1m[36mFamily Load (1.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 42 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 42 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 42 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 42 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 42 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 42 LIMIT 1
+  [1m[36mFamily Load (1.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 43 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 43 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 43 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 43 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 43 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 43 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 43 LIMIT 1[0m
+  [1m[35mFamily Load (1.3ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 44 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 44 LIMIT 1[0m
+  [1m[35mFamily Load (1.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 45 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 45 LIMIT 1[0m
+  [1m[35mCACHE (0.5ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 45 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 45 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 45 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 45 LIMIT 1[0m
+  [1m[35mFamily Load (1.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 46 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 46 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 46 LIMIT 1
+  [1m[36mFamily Load (1.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 47 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 47 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 47 LIMIT 1[0m
+  [1m[35mFamily Load (1.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 48 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 48 LIMIT 1[0m
+  [1m[35mFamily Load (1.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 49 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 49 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 49 LIMIT 1
+  [1m[36mFamily Load (1.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 50 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 50 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 50 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 50 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 50 LIMIT 1[0m
+  [1m[35mFamily Load (1.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 51 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 51 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 51 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 51 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 51 LIMIT 1
+  [1m[36mFamily Load (1.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 52 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 50 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 52 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 52 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 52 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 52 LIMIT 1
+  [1m[36mCACHE (0.9ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 52 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 52 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 53 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 53 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 55 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 55 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 55 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 55 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 56 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 56 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 57 LIMIT 1[0m
+  [1m[35mFamily Load (1.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 58 LIMIT 1
+  [1m[36mFamily Load (1.3ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 59 LIMIT 1[0m
+  [1m[35mFamily Load (1.2ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 60 LIMIT 1
+  [1m[36mFamily Load (1.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 61 LIMIT 1[0m
+  [1m[35mFamily Load (1.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 62 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 63 LIMIT 1[0m
+  [1m[35mFamily Load (2.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 64 LIMIT 1
+  [1m[36mFamily Load (1.2ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 65 LIMIT 1[0m
+  [1m[35mFamily Load (1.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 66 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 66 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 42 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 68 LIMIT 1[0m
+  [1m[35mFamily Load (1.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 69 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 70 LIMIT 1[0m
+  [1m[35mFamily Load (1.3ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 71 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 45 LIMIT 1[0m
+  [1m[35mFamily Load (1.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 72 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 73 LIMIT 1[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 73 LIMIT 1
+  [1m[36mFamily Load (1.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 74 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 34 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 65 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 58 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 18 LIMIT 1
+  [1m[36mFamily Load (1.2ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 75 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 75 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 44 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "families".* FROM "families" WHERE "families"."id" = 44 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "families".* FROM "families" WHERE "families"."id" = 44 LIMIT 1[0m
+  Rendered administrador/members/index.html.haml within layouts/masters/administrador (787.7ms)
+  Rendered layouts/partials/_header.html.haml (2.9ms)
+  Rendered layouts/partials/_menu.html.haml (3.3ms)
+  Rendered layouts/partials/_footer.html.haml (0.4ms)
+Completed 200 OK in 927ms (Views: 843.4ms | ActiveRecord: 70.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 08:02:19 -0300
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 08:02:19 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/administrador/acompanhante" for 127.0.0.1 at 2013-09-04 08:02:20 -0300
+Processing by Administrador::AcompanhanteController#index as HTML
+  [1m[35mAdmin Load (1.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mFollower Load (0.8ms)[0m  [1mSELECT "followers".* FROM "followers" [0m
+  Rendered administrador/acompanhante/index.html.haml within layouts/masters/administrador (0.4ms)
+  Rendered layouts/partials/_header.html.haml (2.7ms)
+  Rendered layouts/partials/_menu.html.haml (2.6ms)
+  Rendered layouts/partials/_footer.html.haml (0.4ms)
+Completed 200 OK in 34ms (Views: 28.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 08:02:21 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 08:02:21 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (13ms)
+
+
+Started GET "/administrador/listagem" for 127.0.0.1 at 2013-09-04 08:02:22 -0300
+Processing by Administrador::ListingController#index as HTML
+  [1m[35mAdmin Load (1.0ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (24.6ms)[0m  [1mSELECT "members".* FROM "members" ORDER BY name ASC[0m
+  Rendered administrador/listing/index.html.haml (56.6ms)
+Completed 200 OK in 82ms (Views: 51.5ms | ActiveRecord: 25.5ms)
+
+
+Started GET "/administrador/listagem" for 127.0.0.1 at 2013-09-04 08:03:13 -0300
+Processing by Administrador::ListingController#index as HTML
+  [1m[35mAdmin Load (0.9ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mMember Load (1.4ms)[0m  [1mSELECT "members".* FROM "members" WHERE "members"."confirmado" = 't' ORDER BY name ASC[0m
+  Rendered administrador/listing/index.html.haml (24.6ms)
+Completed 200 OK in 87ms (Views: 23.3ms | ActiveRecord: 12.0ms)
