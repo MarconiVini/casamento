@@ -97,9 +97,9 @@ $(document).ready(function() {
 		}, "slow");
 		alert($('.flash').text());
 	}
-	$('.main-menu').find('li:eq(1)').on('click', function(){
-	    alert('Você poderá confirmar sua presença assim que enviarmos o convite para os convidados !');
-	});
+	//$('.main-menu').find('li:eq(1)').on('click', function(){
+	//    alert('Você poderá confirmar sua presença assim que enviarmos o convite para os convidados !');
+	//});
 	
 	$('.outrovalor input').on('click', function(){
 		$('.new-value').toggleClass('displaynone');		

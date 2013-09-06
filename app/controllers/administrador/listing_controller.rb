@@ -5,7 +5,6 @@ class Administrador::ListingController < ApplicationController
 	
 	def index
 		@u = Member.order("name ASC").where(confirmado: true)
-
 	end
 
 end
