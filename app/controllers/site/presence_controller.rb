@@ -6,8 +6,8 @@ class Site::PresenceController < ApplicationController
   end
 
   def members
-    @all = Member.all
-    @query = params[:presence][:name]
+    #@all = Member.all
+    #@query = params[:presence][:name]
     @members = Member.find(:all, conditions: ["lower(name) like ?", "%#{params[:presence][:name]}%"])
   end
   
