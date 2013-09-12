@@ -6,8 +6,11 @@ class Site::PresenceController < ApplicationController
   end
 
   def members
-    #@all = Member.all
-    #@query = params[:presence][:name]
+    if params[:presence][:name].length > 1
+      @query = params[:presence][:name]
+    else
+      @query = "Lista completa de Convidados"
+    end
     @members = Member.find(:all, conditions: ["lower(name) like ?", "%#{params[:presence][:name]}%"])
   end
   

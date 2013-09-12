@@ -55097,3 +55097,603 @@ Served asset /analytics.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:18:24 -0300
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:24:14 -0300
+Processing by Site::PresenceController#index as HTML
+  Rendered site/presence/_top_and_form.html.haml (3.0ms)
+  Rendered site/presence/index.html.haml within layouts/masters/internal (5.1ms)
+  Rendered layouts/partials/site/_header.html.haml (4.7ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:14 -0300
+Served asset /site/reset.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:14 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:14 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:14 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:14 -0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:14 -0300
+Served asset /site/internas.js - 304 Not Modified (7ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:24:16 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[35mMember Load (2.4ms)[0m  SELECT "members".* FROM "members" WHERE (lower(name) like '%%')
+  Rendered site/presence/_top_and_form.html.haml (2.5ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (148.4ms)
+  Rendered layouts/partials/site/_header.html.haml (3.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 218ms (Views: 176.8ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:16 -0300
+Served asset /site/personal.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:16 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:16 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:16 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:16 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:16 -0300
+Served asset /site/internas.js - 304 Not Modified (2ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:24:45 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[36mMember Load (2.6ms)[0m  [1mSELECT "members".* FROM "members" WHERE (lower(name) like '%%')[0m
+  Rendered site/presence/_top_and_form.html.haml (3.5ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (84.0ms)
+  Rendered layouts/partials/site/_header.html.haml (4.3ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 222ms (Views: 114.8ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:45 -0300
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:45 -0300
+Served asset /site/internas.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:45 -0300
+Served asset /site/reset.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:46 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:46 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:46 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:24:49 -0300
+Processing by Site::PresenceController#index as HTML
+  Rendered site/presence/_top_and_form.html.haml (3.5ms)
+  Rendered site/presence/index.html.haml within layouts/masters/internal (5.6ms)
+  Rendered layouts/partials/site/_header.html.haml (3.6ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:49 -0300
+Served asset /site/reset.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:49 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:49 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:49 -0300
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:49 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:49 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:24:50 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[35mMember Load (2.5ms)[0m  SELECT "members".* FROM "members" WHERE (lower(name) like '%%')
+  Rendered site/presence/_top_and_form.html.haml (3.3ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (75.8ms)
+  Rendered layouts/partials/site/_header.html.haml (4.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 117ms (Views: 104.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:50 -0300
+Served asset /site/reset.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:24:50 -0300
+Served asset /site/personal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:50 -0300
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:50 -0300
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:50 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:24:50 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:25:17 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[36mMember Load (3.0ms)[0m  [1mSELECT "members".* FROM "members" WHERE (lower(name) like '%%')[0m
+  Rendered site/presence/_top_and_form.html.haml (3.1ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (95.5ms)
+  Rendered layouts/partials/site/_header.html.haml (4.6ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 241ms (Views: 193.6ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:18 -0300
+Served asset /site/internas.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:18 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:25:18 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:18 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:25:18 -0300
+Served asset /site/personal.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:18 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:25:33 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[35mMember Load (3.0ms)[0m  SELECT "members".* FROM "members" WHERE (lower(name) like '%%')
+  Rendered site/presence/_top_and_form.html.haml (3.5ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (143.3ms)
+  Rendered layouts/partials/site/_header.html.haml (3.9ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 212ms (Views: 171.8ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:34 -0300
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:34 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:25:34 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:34 -0300
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:25:34 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:34 -0300
+Served asset /analytics.js - 304 Not Modified (2ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:25:44 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[36mMember Load (2.6ms)[0m  [1mSELECT "members".* FROM "members" WHERE (lower(name) like '%%')[0m
+  Rendered site/presence/_top_and_form.html.haml (3.8ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (79.5ms)
+  Rendered layouts/partials/site/_header.html.haml (4.1ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 216ms (Views: 108.3ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:44 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:25:44 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:25:44 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:44 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:44 -0300
+Served asset /analytics.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:25:44 -0300
+Served asset /site/internas.js - 304 Not Modified (2ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:25:59 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[35mMember Load (3.0ms)[0m  SELECT "members".* FROM "members" WHERE (lower(name) like '%%')
+  Rendered site/presence/_top_and_form.html.haml (2.9ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (76.1ms)
+  Rendered layouts/partials/site/_header.html.haml (4.6ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 215ms (Views: 172.7ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:26:00 -0300
+Served asset /site/personal.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:26:00 -0300
+Served asset /site/reset.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:00 -0300
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:00 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:00 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:00 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:26:23 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[36mMember Load (2.4ms)[0m  [1mSELECT "members".* FROM "members" WHERE (lower(name) like '%%')[0m
+  Rendered site/presence/_top_and_form.html.haml (3.1ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (154.9ms)
+  Rendered layouts/partials/site/_header.html.haml (4.0ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 225ms (Views: 184.9ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:26:24 -0300
+Served asset /site/personal.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:24 -0300
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:24 -0300
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:24 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:24 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:26:24 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:26:33 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[35mMember Load (2.4ms)[0m  SELECT "members".* FROM "members" 
+  Rendered site/presence/_top_and_form.html.haml (3.1ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (6.8ms)
+Completed 500 Internal Server Error in 120ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: .resultados-container
+    2:   =render "top_and_form"
+    3:   -if @members.length < 1;
+    4:     %h2{style: "width: 100%; text-align:center; font-size: 20px; padding: 0;"}
+    5:       Nenhum resultado encontrado
+    6:   -else    
+  app/views/site/presence/members.html.haml:3:in `_app_views_site_presence_members_html_haml___2869530087852608000_69833289497180'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:26:39 -0300
+Processing by Site::PresenceController#index as HTML
+  Rendered site/presence/_top_and_form.html.haml (4.0ms)
+  Rendered site/presence/index.html.haml within layouts/masters/internal (6.6ms)
+  Rendered layouts/partials/site/_header.html.haml (3.5ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:40 -0300
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:40 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:40 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:26:40 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:26:40 -0300
+Served asset /site/reset.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:26:40 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:26:41 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[36mMember Load (2.2ms)[0m  [1mSELECT "members".* FROM "members" [0m
+  Rendered site/presence/_top_and_form.html.haml (2.9ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (5.9ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: .resultados-container
+    2:   =render "top_and_form"
+    3:   -if @members.length < 1;
+    4:     %h2{style: "width: 100%; text-align:center; font-size: 20px; padding: 0;"}
+    5:       Nenhum resultado encontrado
+    6:   -else    
+  app/views/site/presence/members.html.haml:3:in `_app_views_site_presence_members_html_haml___2869530087852608000_69833289497180'
+
+
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/marconi/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:27:14 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[35mMember Load (2.6ms)[0m  SELECT "members".* FROM "members" WHERE (lower(name) like '%%')
+  Rendered site/presence/_top_and_form.html.haml (4.0ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (82.0ms)
+  Rendered layouts/partials/site/_header.html.haml (4.7ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 154ms (Views: 113.1ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:15 -0300
+Served asset /jquery.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:15 -0300
+Served asset /site/reset.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:15 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:15 -0300
+Served asset /site/personal.css - 304 Not Modified (108ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:15 -0300
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:15 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:27:35 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>""}, "commit"=>"Buscar"}
+  [1m[36mMember Load (2.6ms)[0m  [1mSELECT "members".* FROM "members" WHERE (lower(name) like '%%')[0m
+  Rendered site/presence/_top_and_form.html.haml (3.4ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (161.6ms)
+  Rendered layouts/partials/site/_header.html.haml (3.4ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 234ms (Views: 190.7ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:35 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:35 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:35 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:35 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:35 -0300
+Served asset /site/internas.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:35 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:27:43 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>"test"}, "commit"=>"Buscar"}
+  [1m[35mMember Load (1.6ms)[0m  SELECT "members".* FROM "members" WHERE (lower(name) like '%test%')
+  Rendered site/presence/_top_and_form.html.haml (3.9ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (7.0ms)
+  Rendered layouts/partials/site/_header.html.haml (4.2ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 40ms (Views: 35.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:43 -0300
+Served asset /site/reset.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:43 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:43 -0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:43 -0300
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:43 -0300
+Served asset /analytics.js - 304 Not Modified (2ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:27:47 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>"mas"}, "commit"=>"Buscar"}
+  [1m[36mMember Load (1.1ms)[0m  [1mSELECT "members".* FROM "members" WHERE (lower(name) like '%mas%')[0m
+  Rendered site/presence/_top_and_form.html.haml (4.1ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (6.2ms)
+  Rendered layouts/partials/site/_header.html.haml (4.2ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 35ms (Views: 31.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:47 -0300
+Served asset /site/internas.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:47 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:47 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:47 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:47 -0300
+Served asset /site/reset.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:47 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started POST "/confirme-sua-presenca" for 127.0.0.1 at 2013-09-11 22:27:50 -0300
+Processing by Site::PresenceController#members as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QNywBywzDwCWOgTBupQ+Y1+OYFRHJ+fDYlbMA82tFvA=", "presence"=>{"name"=>"mar"}, "commit"=>"Buscar"}
+  [1m[35mMember Load (1.4ms)[0m  SELECT "members".* FROM "members" WHERE (lower(name) like '%mar%')
+  Rendered site/presence/_top_and_form.html.haml (3.1ms)
+  Rendered site/presence/members.html.haml within layouts/masters/internal (16.4ms)
+  Rendered layouts/partials/site/_header.html.haml (5.1ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 115ms (Views: 110.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:50 -0300
+Served asset /site/personal.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-09-11 22:27:50 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:50 -0300
+Served asset /site/internas.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:50 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:50 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:50 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
