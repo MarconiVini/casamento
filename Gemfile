@@ -44,6 +44,7 @@ group :test do
   gem 'spork', '0.9.0'
 end
 
+gem 'thin'
 gem 'newrelic_rpm'
 gem 'will_paginate', '~> 3.0'
 gem 'dynamic_form'

@@ -55697,3 +55697,81 @@ Served asset /jquery.js - 304 Not Modified (1ms)
 
 Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-11 22:27:50 -0300
 Served asset /analytics.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-01 07:57:54 -0300
+Processing by Site::PageController#index as HTML
+  [1m[36mHomemessage Load (38.9ms)[0m  [1mSELECT "homemessages".* FROM "homemessages" WHERE (approved = 't') ORDER BY created_at DESC LIMIT 2[0m
+  Rendered site/page/index.html.haml within layouts/masters/site (340.6ms)
+  Rendered layouts/partials/site/_header.html.haml (28.5ms)
+  Rendered layouts/partials/site/_footer.html.haml (3.2ms)
+Completed 200 OK in 2317ms (Views: 1447.2ms | ActiveRecord: 799.7ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-10-01 07:57:58 -0300
+Served asset /site/reset.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-10-01 07:57:58 -0300
+Served asset /site/personal.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/nivo-slider.css?body=1" for 127.0.0.1 at 2013-10-01 07:57:58 -0300
+Served asset /site/nivo-slider.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-10-01 07:57:58 -0300
+Served asset /analytics.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site/jquery-1.9.0.min.js?body=1" for 127.0.0.1 at 2013-10-01 07:57:58 -0300
+Served asset /site/jquery-1.9.0.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/site.js?body=1" for 127.0.0.1 at 2013-10-01 07:57:58 -0300
+Served asset /site/site.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/jquery.nivo.slider.js?body=1" for 127.0.0.1 at 2013-10-01 07:57:58 -0300
+Served asset /site/jquery.nivo.slider.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/site/home.js?body=1" for 127.0.0.1 at 2013-10-01 07:57:58 -0300
+Served asset /site/home.js - 304 Not Modified (3ms)
+
+
+Started GET "/mensagens-aos-noivos" for 127.0.0.1 at 2013-10-01 07:58:11 -0300
+Processing by Site::PageController#messages as HTML
+  [1m[35mHomemessage Load (1.3ms)[0m  SELECT "homemessages".* FROM "homemessages" WHERE "homemessages"."approved" = 't' ORDER BY created_at DESC LIMIT 8 OFFSET 0
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "homemessages" WHERE "homemessages"."approved" = 't'[0m
+  Rendered site/page/messages.html.haml within layouts/masters/internal (23.7ms)
+  Rendered layouts/partials/site/_header.html.haml (6.8ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.2ms)
+Completed 200 OK in 504ms (Views: 390.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-10-01 07:58:12 -0300
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-10-01 07:58:12 -0300
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-01 07:58:12 -0300
+Served asset /jquery.js - 200 OK (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-01 07:58:12 -0300
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-10-01 07:58:12 -0300
+Served asset /site/internas.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-10-01 07:58:12 -0300
+Served asset /analytics.js - 304 Not Modified (0ms)
