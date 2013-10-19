@@ -1,3 +1,5 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
 -require "i18n"
 :css
 	h1{
@@ -17,6 +19,13 @@
 	.Green{
 		background: #6dffaf;
 	}
+:javascript
+	$(function(){
+			$('.Impression').on('click', function(){
+				$('.Green').removeClass('Green');
+			});
+	});
+
 
 .Main
 	%h1
@@ -32,13 +41,11 @@
 							%td
 								=p.name
 							%td{style: "width: 50px;"}
-								=p.updated_at
 					-else
 						%tr
 							%td
 								=p.name
 							%td{style: "width: 50px;"}
-								=p.updated_at
 				-else
 					%tr
 						%td{style: "font-size: 20px; font-weight:bold; border: none", colspan: 2}
@@ -48,18 +55,16 @@
 							%td
 								=p.name
 							%td{style: "width: 50px;"}
-								- f = Time.now - p.updated_at 
-								= distance_of_time_in_words(p.updated_at, Time.now, false)
 						-@bag = I18n.transliterate(a)
 					- else
 						%tr
 							%td
 								=p.name
 							%td{style: "width: 50px;"}
-								- f = Time.now - p.updated_at 
-								= distance_of_time_in_words(p.updated_at, Time.now, false)
 					-@bag = I18n.transliterate(a)
 	-else
 		Não há nenhum registro ainda
 
 		
+%a.Impression{href: "#", style: "width: 100%; float:left; margin: 40px 0 0 0; text-align: center;"}
+	Versão de Impressão
