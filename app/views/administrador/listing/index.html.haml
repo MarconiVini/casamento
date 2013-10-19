@@ -14,6 +14,9 @@
 	table td{
 		border: 1px solid #000;
 	}
+	.Green{
+		background: #6dffaf;
+	}
 
 .Main
 	%h1
@@ -24,19 +27,38 @@
 			-@u.each do |p|
 				-a = I18n.transliterate(p.name[0])
 				-if a == @bag
-					%tr
-						%td
-							=p.name
-						%td{style: "width: 50px;"}
+					-if (p.updated_at - 3.days.ago) > 0
+						%tr.Green
+							%td
+								=p.name
+							%td{style: "width: 50px;"}
+								=p.updated_at
+					-else
+						%tr
+							%td
+								=p.name
+							%td{style: "width: 50px;"}
+								=p.updated_at
 				-else
 					%tr
 						%td{style: "font-size: 20px; font-weight:bold; border: none", colspan: 2}
 							=p.name[0]	
-					%tr
-						%td
-							=p.name
-						%td{style: "width: 50px;"}
-				-@bag = I18n.transliterate(a)
+					-if (p.updated_at - 3.days.ago) > 0
+						%tr.Green
+							%td
+								=p.name
+							%td{style: "width: 50px;"}
+								- f = Time.now - p.updated_at 
+								= distance_of_time_in_words(p.updated_at, Time.now, false)
+						-@bag = I18n.transliterate(a)
+					- else
+						%tr
+							%td
+								=p.name
+							%td{style: "width: 50px;"}
+								- f = Time.now - p.updated_at 
+								= distance_of_time_in_words(p.updated_at, Time.now, false)
+					-@bag = I18n.transliterate(a)
 	-else
 		Não há nenhum registro ainda
 
