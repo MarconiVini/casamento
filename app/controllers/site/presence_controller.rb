@@ -6,12 +6,16 @@ class Site::PresenceController < ApplicationController
   end
 
   def members
-    if params[:presence][:name].length > 1
-      @query = params[:presence][:name]
+    param = params[:presence][:name].downcase
+    param = param.gsub(/(á|à|â|ä)/, 'a').gsub(/(é|è|ê|ë)/, 'e').gsub(/(í|ì|î|ï)/, 'i').gsub(/(ó|ò|ô|ö)/, 'o').gsub(/(ú|ù|û|ü)/, 'u')
+    param = param.gsub(/(Á|À|Ä)/, 'A').gsub(/(É|È|Ê|Ë)/, 'E').gsub(/(Í|Ì|Î|Ï)/, 'I').gsub(/(Ó|Ò|Õ|Ö)/, 'O').gsub(/(Ú|Ù|Û|Ü)/, 'U')
+    if param.length > 0
+      @query = param
     else
       @query = "Lista completa de Convidados"
     end
-    @members = Member.find(:all, conditions: ["lower(name) like ?", "%#{params[:presence][:name]}%"])
+    q = param
+    @members = Member.find(:all, conditions: ["lower(name) like ?", "%#{q}%"])
   end
   
   def family
