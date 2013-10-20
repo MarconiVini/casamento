@@ -16,6 +16,11 @@ class Site::PresenceController < ApplicationController
     end
     q = param
     @members = Member.find(:all, conditions: ["lower(name) like ?", "%#{q}%"])
+    if @members.length < 1
+      @query = param.split(" ")[0]
+      q = param.split(" ")[0]
+      @members = Member.find(:all, conditions: ["lower(name) like ?", "%#{q}%"])
+    end
   end
   
   def family
