@@ -61195,3 +61195,55 @@ Served asset /galeria/fingerprint.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/galeria/prayer.jpg" for 127.0.0.1 at 2013-10-23 21:54:16 -0200
 Served asset /galeria/prayer.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/dicas/novidades" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Processing by Site::DicasController#novidades as HTML
+  Rendered site/dicas/novidades.html.haml within layouts/masters/internal (12.2ms)
+  Rendered layouts/partials/site/_header.html.haml (4.7ms)
+  Rendered layouts/partials/site/_footer.html.haml (0.3ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site/reset.css?body=1" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /site/reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site/personal.css?body=1" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /site/personal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site/internas.js?body=1" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /site/internas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /analytics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeria/madruga.jpg" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /galeria/madruga.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeria/johnnie.jpg" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /galeria/johnnie.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeria/drinks.jpg" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /galeria/drinks.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeria/fingerprint.jpg" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /galeria/fingerprint.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galeria/prayer.jpg" for 127.0.0.1 at 2013-10-23 21:58:49 -0200
+Served asset /galeria/prayer.jpg - 304 Not Modified (1ms)
