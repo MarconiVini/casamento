@@ -12,4 +12,8 @@ class Site::DicasController < ApplicationController
 	def solteiras
 
 	end
+
+	def novidades
+		
+	end
 end

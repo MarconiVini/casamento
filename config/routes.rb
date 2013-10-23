@@ -29,7 +29,8 @@ PersonalTrainer::Application.routes.draw do
 
   get 'dicas/trajes-madrinhas', to: 'site/dicas#madrinhas'   
   get 'dicas/trajes-padrinhos', to: 'site/dicas#padrinhos'  
-  get 'dicas/solteironas',        to: 'site/dicas#solteiras'  
+  get 'dicas/solteironas',      to: 'site/dicas#solteiras'  
+  get 'dicas/novidades',        to: 'site/dicas#novidades'  
 
 
   match "album/:page_num" => 'site/page#album', as: :album
